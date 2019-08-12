@@ -1,0 +1,59 @@
+player_not_found: '&cИгрок с ником %s не найден!'
+target_already_married: '&cУ игрока %s уже есть партнер!'
+already_married: '&cУ вас уже есть партнер'
+married: '&a&lИгрок %s и %s только что стали парой! Поздравляем!'
+marriage_requested: '&fИгрок&c %s &fпросит вас стать парой, используйте &c/marry %s
+  &fчтобы принять предложение.'
+request_sent: '&fВы сделали предложение игроку&c %s!'
+not_married: '&cСейчас у вас нет второй половинки!'
+divorced: '&fИгрок&c %s &fи&c %s &fразвелись!'
+home_teleport: '&fДобро пожаловать в супружеский дом!'
+home_not_set: '&fУстановите точку семейного дома, используя команду&c /marry sethome'
+no_item: '&cЧтобы подарить подарок, нужно держать его в руке!'
+item_gifted: '&cСЕРВЕР> &fВы подарили подарок своему партнеру!'
+gift_received: '&cСЕРВЕР> &fВы получили подарок от своего партнера!'
+partner_not_online: '&cСЕРВЕР> &fВаш партнер не в сети!'
+fetching_list: '&cСЕРВЕР> &fВывод семейных пар...'
+home_set: '&cСЕРВЕР> &fВы установили точку семейного дома!'
+invalid_format: '&cThe argument could not be parsed to an integer!'
+invalid_gender: '&cВыберите пол: "male - мужской" или "female - женский"'
+gender_set: '&cСЕРВЕР> &fВы выбрали пол -&c %s!'
+marry_self: '&cСЕРВЕР> &fПрости, но ты не можешь стать парой с самим собой :('
+negative_number: '&cСЕРВЕР> &fНеобходимо ввести положительное число!'
+priest_added: '&aSet player as a priest, he may now marry other players!'
+priest_removed: '&aUnset player as a priest, he may now no longer marry othewr players!'
+teleported: '&cСЕРВЕР> &fВы телепортировались к своему партнеру!'
+teleported_2: '&cСЕРВЕР> &fВаш партнер телепортировался к вам!'
+online_since: '&cСЕРВЕР> &fВаш партнер находится в &2ONLINE &a%s!'
+offline_since: '&cСЕРВЕР> &fВаш партнер находится в &cOFFLINE &aс %ss!'
+not_a_priest: '&cВы не можете завести себе второго партнера!'
+cooldown: '&cВы выполняете это действие слишком часто!'
+update_available: |-
+  &f&l[Marriage] &eНайдена новая версия плагин! %s for %s
+  Type &6/marry update &eto update now.
+paid_fee: '&a%s было списано с вашего баланса.'
+insufficient_money: '&cНедостаточно средств %s'
+partner_fee: '&cВаш партнер не может заплатить за свадьбу'
+married_to: '&fпартнер - %s'
+chat_enabled: '&aВы вошли в приватный чат с партнером!'
+chat_disabled: '&aВы вышли из приватного чата с партнером!'
+chat_spy_enabled: '&aВключен приватный чат!'
+chat_spy_disabled: '&aПриватный чат выключен!'
+no_health: '&cУ вас нет нужного количества ХП!'
+full_health: '&cУ ваше партнёра уже полное ХП!'
+health_given: '&aВы вылечили вашего партнёра на %s сердец!'
+health_taken: '&aВас вылечил ваш партнёр на %s сердец!'
+command_marry: Запрос на брак с другим игроком
+command_marry_priest: Поженить двоих игроков друг с другом
+command_chat: Включить приватный чат с партнёром
+command_divorce: Развестись с партнёром
+command_gender: Указать свой пол
+command_gift: Подарить подарок партнёру, который у вас в руке
+command_home: Телепортироваться в семейный дом
+command_list: Посмотреть всех игроков, у которых есть партнёр
+command_seen: Проверить когда последний ваш партнёр был онлайн
+command_sethome: Установить точку дома для вашей семьи
+command_teleport: Телепортироваться к вашему партнёру
+command_heal: Отправить хп вашему партнёру
+status: '&aСтатус: %s'
+single: '&fодинок(а)'

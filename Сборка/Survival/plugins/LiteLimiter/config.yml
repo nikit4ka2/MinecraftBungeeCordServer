@@ -1,0 +1,110 @@
+block-limit:
+  default:
+    //set: 0
+    //walls: 0
+    //brush: 0
+    //sphere: 0
+    //hsphere: 0
+    //pyramid: 0
+    //hpyramid: 0
+    //replacenear: 0
+  donor:
+    //set: 0
+    //walls: 0
+    //brush: 0
+    //sphere: 0
+    //hsphere: 0
+    //pyramid: 0
+    //hpyramid: 0
+    //replacenear: 0
+  lord:
+    //set: 0
+    //walls: 0
+    //brush: 0
+    //sphere: 0
+    //hsphere: 0
+    //pyramid: 0
+    //hpyramid: 0
+    //replacenear: 0
+  legend:
+    //set: 0
+    //walls: 0
+    //brush: 0
+    //sphere: 0
+    //hsphere: 0
+    //pyramid: 0
+    //hpyramid: 0
+    //replacenear: 0
+  admin:
+    //set: 0
+    //walls: 0
+    //brush: 0
+    //sphere: 0
+    //hsphere: 0
+    //pyramid: 0
+    //hpyramid: 0
+    //replacenear: 0
+  titan:
+    //set: 1000
+    //walls: 0
+    //brush: 0
+    //sphere: 0
+    //hsphere: 0
+    //pyramid: 0
+    //hpyramid: 0
+    //replacenear: 0
+  anti:
+    //set: 2000
+    //walls: 0
+    //brush: 0
+    //sphere: 0
+    //hsphere: 0
+    //pyramid: 0
+    //hpyramid: 0
+    //replacenear: 0
+  glav:
+    //set: 2000
+    //walls: 1000
+    //brush: 0
+    //sphere: 0
+    //hsphere: 0
+    //pyramid: 0
+    //hpyramid: 0
+    //replacenear: 0
+  lite:
+    //set: 2500
+    //walls: 1000
+    //brush: 0
+    //sphere: 0
+    //hsphere: 0
+    //pyramid: 0
+    //hpyramid: 0
+    //replacenear: 0
+  helper:
+    //set: 3000
+    //walls: 2000
+    //brush: 0
+    //sphere: 0
+    //hsphere: 0
+    //pyramid: 0
+    //hpyramid: 0
+    //replacenear: 0
+  owner:
+    //set: 5000
+    //walls: 3000
+    //brush: 0
+    //sphere: 0
+    //hsphere: 0
+    //pyramid: 0
+    //hpyramid: 0
+    //replacenear: 0
+gm-forbidden:
+- 7
+argument-limit:
+  default:
+    commands-list:
+    - //sphere
+    //sphere:
+      limited:
+      - 1
+      '1': 20

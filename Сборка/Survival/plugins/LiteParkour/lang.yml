@@ -1,0 +1,9 @@
+version: 0
+PREFIX: '&c&lLite&f&lParkour &a» '
+YOUHAVE: '&eВаш рекорд &a{poits} &eпрыжков'
+YOUSCORED: '&eВаш счёт &a{points} &eпрыжков'
+RECORD: '&eВы побили свой рекод &a{oldpoints}& &eпрыжков! Новый рекод &a{newpoints}
+  &eпрыжков!'
+YOULOSE: '&eВы упали! Попробуйте снова &a:('
+NOPERM: '&cНедостаточно прав.'
+FULL: '&eПаркур переполнен. Попробуйте позже'

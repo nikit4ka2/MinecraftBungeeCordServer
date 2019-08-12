@@ -1,0 +1,6 @@
+# Время между проверками( в секундах )
+check-delay: 5
+# Фикс зачарований
+fix-enchants: true
+# Фикс NBT
+fix-nbt: true

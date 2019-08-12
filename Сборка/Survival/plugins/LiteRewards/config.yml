@@ -1,0 +1,235 @@
+Reward:
+  invName: Меню подарков :3
+  invRows: 5
+  items:
+    '1':
+      itemName: '&aПодарки от &cLite&fSpace'
+      itemSlot: 9
+      itemID: '160:13'
+      amount: 1
+      itemLore: []
+      decoration: true
+    '2':
+      itemName: '&aПодарки от &cLite&fSpace'
+      itemSlot: 17
+      amount: 1
+      itemID: '160:13'
+      itemLore: []
+      decoration: true
+    '7':
+      itemName: '&aПодарки от &cLite&fSpace'
+      itemSlot: 2
+      amount: 1
+      itemID: '160:13'
+      itemLore: []
+      decoration: true
+    '8':
+      itemName: '&aПодарки от &cLite&fSpace'
+      itemSlot: 6
+      amount: 1
+      itemID: '160:13'
+      itemLore: []
+      decoration: true
+    '9':
+      itemName: '&aПодарки от &cLite&fSpace'
+      itemSlot: 27
+      itemID: '160:13'
+      amount: 1
+      itemLore: []
+      decoration: true
+    '10':
+      itemName: '&aПодарки от &cLite&fSpace'
+      itemSlot: 35
+      amount: 1
+      itemID: '160:13'
+      itemLore: []
+      decoration: true
+    '11':
+      itemName: '&aПодарки от &cLite&fSpace'
+      itemSlot: 38
+      amount: 1
+      itemID: '160:13'
+      itemLore: []
+      decoration: true
+    '12':
+      itemName: '&aПодарки от &cLite&fSpace'
+      itemSlot: 42
+      amount: 1
+      itemID: '160:13'
+      itemLore: []
+      decoration: true
+    '13':
+      itemName: '&aПодарки от &cLite&fSpace'
+      itemSlot: 22
+      amount: 1
+      itemID: '160:13'
+      itemLore: []
+      decoration: true
+    vaska:
+      Used:
+        itemName: '&cОдноразовый бонус'
+        amount: 1
+        itemID: '166:0'
+        itemLore:
+        - '&8Одноразовый бонус'
+        - ''
+        - '&7Награды:'
+        - '&7- &f2000 Монеток'
+        - ''
+        - '&7Доступен: Игроку'
+        - '&7Доступно через: &cБольше нельзя.'
+        - ''
+        - '&eНажми, чтобы забрать бонус!'
+      itemName: '&aОдноразовый бонус'
+      itemSlot: 11
+      amount: 15
+      itemID: '175:0'
+      itemLore:
+      - '&8Одноразовый бонус'
+      - ''
+      - '&7Награды:'
+      - '&7- &f2000 Монеток'
+      - ''
+      - '&7Доступен: Игроку'
+      - '&7Задержка: &cДается 1 раз.'
+      - ''
+      - '&eНажми, чтобы забрать бонус!'
+      reward:
+        type: money
+        reward: 2000
+      expired: false
+      decoration: false
+    '4':
+      Used:
+        itemName: '&cБонус #1'
+        amount: 1
+        itemID: '166:0'
+        itemLore:
+        - '&8Бонус'
+        - ''
+        - '&7Награды:'
+        - '&7- &f1000 Монеток'
+        - ''
+        - '&7Доступен: Игроку'
+        - '&7Доступно через: &c%time%.'
+        - ''
+        - '&eНажми, чтобы забрать бонус!'
+      itemName: '&aБонус #1'
+      itemSlot: 15
+      amount: 1
+      itemID: '175:0'
+      itemLore:
+      - '&8Бонус'
+      - ''
+      - '&7Награды:'
+      - '&7- &f1000 Монеток'
+      - ''
+      - '&7Доступен: Игроку'
+      - '&7Задержка: &c2h.'
+      - ''
+      - '&eНажми, чтобы забрать бонус!'
+      reward:
+        type: money
+        reward: 1000
+      expiretime: 2
+      expired: true
+      decoration: false
+    '5':
+      Used:
+        itemName: '&cБонус #2'
+        amount: 1
+        itemID: '166:0'
+        itemLore:
+        - '&8Бонус'
+        - ''
+        - '&7Награды:'
+        - '&7- &f64 дерева!'
+        - ''
+        - '&7Доступен: Игроку'
+        - '&7Доступно через: &c%time%.'
+        - ''
+        - '&eНажми, чтобы забрать бонус!'
+      itemName: '&aБонус #2'
+      itemSlot: 29
+      amount: 64
+      itemID: '17:0'
+      itemLore:
+      - '&8Бонус'
+      - ''
+      - '&7Награды:'
+      - '&7- &f64 дерева!'
+      - ''
+      - '&7Доступен: Игроку'
+      - '&7Задержка: &c1h.'
+      - ''
+      - '&eНажми, чтобы забрать бонус!'
+      expiretime: 1
+      reward:
+        type: item
+        reward: derevoo
+      expired: true
+      decoration: false
+    '6':
+      Used:
+        itemName: '&cБонус #3'
+        amount: 1
+        itemID: '166:0'
+        itemLore:
+        - '&8Бонус за день'
+        - ''
+        - '&7Награды:'
+        - '&7- &fМеч тора!'
+        - ''
+        - '&7Доступен: Игроку'
+        - '&7Доступно через: &c%time%.'
+        - ''
+        - '&eНажми, чтобы забрать бонус!'
+      itemName: '&aБонус #3'
+      itemSlot: 33
+      amount: 1
+      itemID: '276:0'
+      itemLore:
+      - '&8Бонус за день'
+      - ''
+      - '&7Награды:'
+      - '&7- &fМеч тора!'
+      - ''
+      - '&7Доступен: Игроку'
+      - '&7Задержка: &c120h.'
+      - ''
+      - '&eНажми, чтобы забрать бонус!'
+      expiretime: 120
+      reward:
+        type: item
+        reward: me4tora
+      expired: true
+      decoration: false
+me4tora:
+  name: '&a&lМеч Геракла'
+  id: '276:0'
+  amount: 1
+  enchant:
+  - DAMAGE_ALL:4
+  - DAMAGE_UNDEAD:5
+  - KNOCKBACK:1
+  - FIRE_ASPECT:2
+  - LOOT_BONUS_MOBS:2
+  lore:
+  - '&7----------------------'
+  - '&fМеч настроящего силача,'
+  - '&fэтот силач - &a%name%'
+derevoo:
+  name: '&a&lДеревцо'
+  id: '17:0'
+  amount: 64
+  enchant: []
+  lore:
+  - '&7----------------------'
+  - '&fПострой что-то великое!'
+Messages:
+  deposited: '&cLite&fRewards &e> &a%money%$ &eбыло зачислено на ваш счет'
+  notExpired: '&cLite&fRewards &a> &eБольше брать нельзя'
+  expire: '&cLite&fRewards &a> &eБудет доступно через &a%time%'
+Permissions:
+  clear: Reward.clear
+  clearother: Reward.clear.other

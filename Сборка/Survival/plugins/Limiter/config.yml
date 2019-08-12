@@ -1,0 +1,198 @@
+#Сообщение игроку о кулдауне. Поддерживает тег {seconds}
+cooldown_message: "&f[&cСЕРВЕР&f] &fКоманду можно использовать через &c{seconds} &fсекунд"
+#Список команд и их вариаций на сервере. Время в секундах
+commands:
+    afk: #Главное название команды
+     #Та же команда, но под другим названием
+     aliases: ['eafk', 'eaway']
+     #Интервал между использованием команды, для групп
+     cooldown:
+      zserver: 30
+      anti: 30
+      server: 30
+      youtube: 30
+      helper: 30
+      moderator: 30
+      owner: 5
+     #Начиная со сколько аргументов ставить кулдаун(Можно убрать и будет работать)
+     length: 0
+    acc: #Главное название команды
+     #Та же команда, но под другим названием
+     aliases: ['clanchat']
+     #Интервал между использованием команды, для групп
+     cooldown:
+      default: 5
+      vip: 5
+      premium: 5
+      creative: 5
+      admin: 5
+      help: 5
+      zserver: 5
+      anti: 5
+      server: 5
+      youtube: 5
+      helper: 5
+      moderator: 5
+      owner: 1
+     #Начиная со сколько аргументов ставить кулдаун(Можно убрать и будет работать)
+     length: 0
+    d: #Главное название команды
+     #Та же команда, но под другим названием
+     aliases: ['donatechat:d']
+     #Интервал между использованием команды, для групп
+     cooldown:
+      default: 5
+      vip: 5
+      premium: 5
+      creative: 5
+      admin: 5
+      help: 5
+      zserver: 5
+      anti: 5
+      server: 5
+      youtube: 5
+      helper: 5
+      moderator: 5
+      owner: 1
+     #Начиная со сколько аргументов ставить кулдаун(Можно убрать и будет работать)
+     length: 0
+    w: #Главное название команды
+     #Та же команда, но под другим названием
+     aliases: ['m', 't', 'pm', 'emsg', 'epm', 'tell', 'etell', 'whisper', 'ewhisper']
+     #Интервал между использованием команды, для групп
+     cooldown:
+      default: 5
+      vip: 5
+      premium: 5
+      creative: 5
+      admin: 5
+      help: 5
+      zserver: 5
+      anti: 5
+      server: 5
+      youtube: 5
+      helper: 5
+      moderator: 5
+      owner: 1
+     #Начиная со сколько аргументов ставить кулдаун(Можно убрать и будет работать)
+     length: 0
+    pay: #Главное название команды
+     #Та же команда, но под другим названием
+     aliases: ['epay']
+     #Интервал между использованием команды, для групп
+     cooldown:
+      default: 5
+      vip: 5
+      premium: 5
+      creative: 5
+      admin: 5
+      help: 5
+      zserver: 5
+      anti: 5
+      server: 5
+      youtube: 5
+      helper: 5
+      moderator: 5
+      owner: 1
+     #Начиная со сколько аргументов ставить кулдаун(Можно убрать и будет работать)
+     length: 0
+    r: #Главное название команды
+     #Та же команда, но под другим названием
+     aliases: ['er', 'reply', 'ereply']
+     #Интервал между использованием команды, для групп
+     cooldown:
+      default: 3
+      vip: 3
+      premium: 3
+      creative: 3
+      admin: 3
+      help: 3
+      zserver: 3
+      anti: 3
+      server: 3
+      youtube: 3
+      helper: 3
+      moderator: 3
+      owner: 1
+     #Начиная со сколько аргументов ставить кулдаун(Можно убрать и будет работать)
+     length: 0
+    suicide: #Главное название команды
+     #Та же команда, но под другим названием
+     aliases: ['esuicide']
+     #Интервал между использованием команды, для групп
+     cooldown:
+      default: 5
+      vip: 5
+      premium: 5
+      creative: 5
+      admin: 5
+      help: 5
+      zserver: 5
+      anti: 5
+      server: 5
+      youtube: 5
+      helper: 5
+      moderator: 5
+      owner: 1
+     #Начиная со сколько аргументов ставить кулдаун(Можно убрать и будет работать)
+     length: 0
+    sms: #Главное название команды
+     #Та же команда, но под другим названием
+     aliases: ['esms']
+     #Интервал между использованием команды, для групп
+     cooldown:
+      default: 5
+      vip: 5
+      premium: 5
+      creative: 5
+      admin: 5
+      help: 5
+      zserver: 5
+      anti: 5
+      server: 160
+      youtube: 100
+      helper: 30
+      moderator: 20
+      owner: 5
+     #Начиная со сколько аргументов ставить кулдаун(Можно убрать и будет работать)
+     length: 0
+    freecase: #Главное название команды
+     #Та же команда, но под другим названием
+     aliases: ['mdonate']
+     #Интервал между использованием команды, для групп
+     cooldown:
+      default: 1000
+      vip: 1000
+      premium: 1000
+      creative: 1000
+      admin: 1000
+      help: 1000
+      zserver: 1000
+      anti: 1000
+      server: 1000
+      youtube: 1000
+      helper: 1000
+      moderator: 1000
+      owner: 5
+     #Начиная со сколько аргументов ставить кулдаун(Можно убрать и будет работать)
+     length: 0
+    kill: #Главное название команды
+     #Та же команда, но под другим названием
+     aliases: ['ekill']
+     #Интервал между использованием команды, для групп
+     cooldown:
+      default: 3
+      vip: 3
+      premium: 3
+      creative: 3
+      admin: 3
+      help: 3
+      zserver: 3
+      anti: 3
+      server: 30
+      youtube: 30
+      helper: 15
+      moderator: 10
+      owner: 5
+     #Начиная со сколько аргументов ставить кулдаун(Можно убрать и будет работать)
+     length: 0

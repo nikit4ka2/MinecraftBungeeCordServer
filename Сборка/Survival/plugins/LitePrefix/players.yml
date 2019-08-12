@@ -1,0 +1,391 @@
+Players:
+  9650fb82-40d5-32b0-9df1-5ff272ceae26:
+    Name: BOBKA
+    Prefix: '&f[&4Owner&f] &f'
+    Suffix: ''
+    SortPriority: -1
+  67041843-9bbe-3e1d-9d49-e76c206fe64e:
+    Name: POP12
+    Prefix: '&6Главарь &f'
+    Suffix: ''
+    SortPriority: -1
+  af39c27e-d1a0-337e-b15e-79a341697301:
+    Name: FIRE_NICH_YT
+    Prefix: '&eЛегенда &f'
+    Suffix: ''
+    SortPriority: -1
+  c5a56d2e-bffe-3b44-9a0e-d237bf25b0e5:
+    Name: ivova228
+    Prefix: '&cВладелец &f'
+    Suffix: ''
+    SortPriority: -1
+  b54d9469-733c-3e43-a78c-0d1879530b1c:
+    Name: xoma12345
+    Prefix: '&9Хелпер &6'
+    Suffix: ''
+    SortPriority: -1
+  a62e33da-a34c-30ab-a2f5-5475ff1f57af:
+    Name: TallonyJons
+    Prefix: '&aИгрок &f'
+    Suffix: ''
+    SortPriority: -1
+  c8ab8082-d7c0-34f7-9563-27b1ad52a9c6:
+    Name: MrTools
+    Prefix: '&9Хелпер &6'
+    Suffix: ''
+    SortPriority: -1
+  9db2acf1-9e7e-37e0-8200-d875403d23a3:
+    Name: Win_Dizel_YT
+    Prefix: '&c☾Владелец☽ &f'
+    Suffix: ''
+    SortPriority: -1
+  d7562ac4-0b74-3fa7-8657-620b40f68913:
+    Name: _SKELETON_
+    Prefix: '&b☾Звезда☽ &f'
+    Suffix: ''
+    SortPriority: -1
+  8b4b2866-606a-398c-8a3a-615ae2804982:
+    Name: JustxSomexGal
+    Prefix: '&9Модер &6'
+    Suffix: ''
+    SortPriority: -1
+  6cd7ece7-7638-3abf-9905-c5177391dcf4:
+    Name: Saverma
+    Prefix: '&dФСБ &f'
+    Suffix: ''
+    SortPriority: -1
+  b1ca1e7f-4190-3867-8665-9195efc9bc2c:
+    Name: W32222
+    Prefix: '&aИгрок &f'
+    Suffix: ''
+    SortPriority: -1
+  ce6e053b-9339-3b2d-93af-a88717976810:
+    Name: kraizeebones
+    Prefix: '&e☾Бог☽ &f'
+    Suffix: ''
+    SortPriority: -1
+  823bd57a-23e9-38a6-a3ce-48fc1ffb08ea:
+    Name: karl2025
+    Prefix: '&a☾Игрок☽ &f'
+    Suffix: ''
+    SortPriority: -1
+  aec3ef1a-ea46-3fe0-8f2a-56091c817b72:
+    Name: gapa2012
+    Prefix: '&cОПКА &f'
+    Suffix: ''
+    SortPriority: -1
+  a81c8417-1059-3eb7-9671-860bdb5c60d3:
+    Name: TheRydi
+    Prefix: '&a☾Игрок☽ &f'
+    Suffix: ''
+    SortPriority: -1
+  575906f3-402f-3917-86e7-389f721fe286:
+    Name: 6aToH4uK2
+    Prefix: '&cВладелец &f'
+    Suffix: ''
+    SortPriority: -1
+  f4278089-f47b-353a-b150-55c276597978:
+    Name: zoxan
+    Prefix: '&b☾Лорд☽ &f'
+    Suffix: ''
+    SortPriority: -1
+  247cec19-602e-3f7a-bdb7-00ae286f0411:
+    Name: Reboot
+    Prefix: '&cАдмин &e'
+    Suffix: ''
+    SortPriority: -1
+  6214134e-c6fa-3e24-86dd-4e8953817227:
+    Name: 6aToH4uK
+    Prefix: '&9Хелпер &6'
+    Suffix: ''
+    SortPriority: -1
+  d8d859bd-6545-3829-9f82-66f8c0ac9df6:
+    Name: Lyooxa
+    Prefix: '&9Модер &6'
+    Suffix: ''
+    SortPriority: -1
+  970f8d9d-2a6e-3dd6-afaa-3570a01786dc:
+    Name: egggev
+    Prefix: '&5Discord &f'
+    Suffix: ''
+    SortPriority: -1
+  b8fd5599-461e-317c-85e1-76cbdfb32c86:
+    Name: Scarycr0w
+    Prefix: '&6&lБатя &f'
+    Suffix: ''
+    SortPriority: -1
+  1284f8ec-41fa-3a68-b5de-db17a3381baa:
+    Name: CA_X_AP
+    Prefix: '&aИгрок &f'
+    Suffix: ''
+    SortPriority: -1
+  0cc267ec-66ea-3a59-8587-4ba05ba346ef:
+    Name: MuLT1K1L
+    Prefix: '&aИгрок &e'
+    Suffix: ''
+    SortPriority: -1
+  e4e925b8-c8dd-3c45-89c4-89c7838c4a1b:
+    Name: ilyaprunov
+    Prefix: '&9Титан &e'
+    Suffix: ''
+    SortPriority: -1
+  e33c48d7-c37e-354b-a730-256beb3876cd:
+    Name: NeZoX
+    Prefix: '&cВладелец &f'
+    Suffix: ''
+    SortPriority: -1
+  7c80e3cd-9133-339c-8d5e-82984b64e1a0:
+    Name: PoCTuCJLaB
+    Prefix: '&dФСБ &f'
+    Suffix: ''
+    SortPriority: -1
+  282634ba-1c3f-3525-9197-43f240b612ab:
+    Name: gamers_228
+    Prefix: '&eЛегенда &f'
+    Suffix: ''
+    SortPriority: -1
+  71219a5b-dda7-3a7f-8aed-846923457229:
+    Name: iBizieE
+    Prefix: '&cВладелец &f'
+    Suffix: ''
+    SortPriority: -1
+  3fd87f39-a42b-3d5f-8d7b-3e59494d521e:
+    Name: Crazy_br
+    Prefix: '&9Полиция &f'
+    Suffix: ''
+    SortPriority: -1
+  ffc0a723-4b3e-3252-8267-f584ecfee997:
+    Name: DefenseMatrix
+    Prefix: '&eРядовой &f'
+    Suffix: ''
+    SortPriority: -1
+  09b40299-1a7a-3873-8403-6229fde41d85:
+    Name: Vekh
+    Prefix: '&9Полиция &f'
+    Suffix: ''
+    SortPriority: -1
+  8bf3602e-8c96-3b05-b916-ca68c84675c6:
+    Name: RockPlay
+    Prefix: '&eРядовой &f'
+    Suffix: ''
+    SortPriority: -1
+  99e9869d-1533-3ee9-bc26-7862db65a285:
+    Name: Cloaking_Ocean
+    Prefix: '&bЛорд &f'
+    Suffix: ''
+    SortPriority: -1
+  6a2d7209-fab0-30bc-9f5f-882761af146c:
+    Name: fanis
+    Prefix: '&9Хелпер &6'
+    Suffix: ''
+    SortPriority: -1
+  df45bbdc-2f12-3931-afbc-f3b3060fb2c2:
+    Name: III_sans_III
+    Prefix: '&6Главарь &f'
+    Suffix: ''
+    SortPriority: -1
+  ab8211d9-20e4-30f0-aed7-77549548def6:
+    Name: SexIViskas
+    Prefix: '&bЛорд &f'
+    Suffix: ''
+    SortPriority: -1
+  a976afbf-7818-32ba-b4b1-c444ed7d6b5a:
+    Name: coolyo877
+    Prefix: '&f[&4Owner&f] &f'
+    Suffix: ''
+    SortPriority: -1
+  763722e8-bc4a-39cd-99c1-a9148af4aa2a:
+    Name: MrJangles
+    Prefix: '&c☾Владелец☽ &f'
+    Suffix: ''
+    SortPriority: -1
+  298509c0-9a5f-360d-82db-7fae76371b49:
+    Name: CodeTeam
+    Prefix: '&6Главарь &f'
+    Suffix: ''
+    SortPriority: -1
+  58aeaa93-bece-33c1-b2da-3168dadb1d3c:
+    Name: Jinga
+    Prefix: '&9Модер &6'
+    Suffix: ''
+    SortPriority: -1
+  ff096c1b-9d14-3c93-86ec-7fb21d076b29:
+    Name: MoNsTeR_KrYaSh
+    Prefix: '&6Главарь &f'
+    Suffix: ''
+    SortPriority: -1
+  2e65e257-2122-3126-8dab-17811e6e2cce:
+    Name: PvpGameYT
+    Prefix: '&cОПКА &f'
+    Suffix: ''
+    SortPriority: -1
+  6e2fe598-1c5e-3176-9e23-8f4758193866:
+    Name: CryToxDp
+    Prefix: '&eБог &f'
+    Suffix: ''
+    SortPriority: -1
+  73527abd-10ba-32a1-9bc9-bae48c6fc85a:
+    Name: Davls
+    Prefix: '&9Модер &6'
+    Suffix: ''
+    SortPriority: -1
+  17fe6a3a-f908-3c8c-bcae-e767f82ffb90:
+    Name: Nike112
+    Prefix: '&6Главарь &f'
+    Suffix: ''
+    SortPriority: -1
+  0006041f-acbe-3751-ab92-a763306ab12d:
+    Name: nnikita7556
+    Prefix: '&6☾Главарь☽ &f'
+    Suffix: ''
+    SortPriority: -1
+  00603a9d-7c92-3b39-b9cd-257512e46c1d:
+    Name: Dim4ikDZN
+    Prefix: '&aИгрок &f'
+    Suffix: ''
+    SortPriority: -1
+  8d1c008e-9dc7-395a-a26b-8025f229866d:
+    Name: Arina1092
+    Prefix: '&2Хакер &e'
+    Suffix: ''
+    SortPriority: -1
+  ae25e2b2-ad1c-3fc9-a831-02868ec35c19:
+    Name: __PisosPro__
+    Prefix: '&f[&4Owner&f] &f'
+    Suffix: ''
+    SortPriority: -1
+  44201807-feea-38ca-aa04-f4be5d000302:
+    Name: _EugenBro_
+    Prefix: '&cLite&fSpace &e'
+    Suffix: ''
+    SortPriority: -1
+  7c4c3c6e-c99e-3d2b-9f04-c3c137f7ac63:
+    Name: RedRubix
+    Prefix: '&f☾You&cTube☽ &f'
+    Suffix: ''
+    SortPriority: -1
+  cdd7061f-321d-3039-a73b-09266198f542:
+    Name: pro100kick
+    Prefix: '&6Главарь &f'
+    Suffix: ''
+    SortPriority: -1
+  2eacb7d8-4905-36d0-a8d9-05e6606b39f0:
+    Name: Deeksyt
+    Prefix: '&7[&4Rcon&7]&f'
+    Suffix: ''
+    SortPriority: -1
+  a8cd6751-af3b-3562-a17d-f246ae2ebe9d:
+    Name: DJAGERnout88
+    Prefix: '&aИгрок &f'
+    Suffix: ''
+    SortPriority: -1
+  b70893b0-14cc-3497-a0db-703ea775b583:
+    Name: BUILDING_Design
+    Prefix: '&9Модер &6'
+    Suffix: ''
+    SortPriority: -1
+  b59ddc9f-ac27-3018-805e-b7bb8a4ce392:
+    Name: crytox
+    Prefix: '[&aКал&f] &9'
+    Suffix: ''
+    SortPriority: -1
+  c9740f98-28b0-3257-b51e-690293075cbc:
+    Name: ImprezaHD
+    Prefix: '&eАниме &f'
+    Suffix: ''
+    SortPriority: -1
+  050b0032-e05d-38a0-b57f-2bd9b239aa6e:
+    Name: LaitCrash
+    Prefix: '&2Хакер &e'
+    Suffix: ''
+    SortPriority: -1
+  c927b57e-c090-378a-a032-d2ec0c387550:
+    Name: ___ANGELINA__
+    Prefix: '&c☾Владелец☽ &f'
+    Suffix: ''
+    SortPriority: -1
+  272f9db2-8710-304f-9315-feb43fe8b802:
+    Name: Ui_kamoro
+    Prefix: '&b☾Лорд☽ &f'
+    Suffix: ''
+    SortPriority: -1
+  a6c822d0-2cfe-4e35-860b-2deba466c9ac:
+    Name: Lordpitt
+    Prefix: '&amp;d&amp;lГЭЙ &amp;f'
+    Suffix: ''
+    SortPriority: -1
+  47dc7d4a-3ee0-3fc3-87a6-068eb8d1cd98:
+    Name: _MasterDay_
+    Prefix: '&f[&4Owner&f] &f'
+    Suffix: ''
+    SortPriority: -1
+  5d0c050f-1846-3376-8582-2e0f142e92bf:
+    Name: Dimas7305
+    Prefix: '&cВладелец &f'
+    Suffix: ''
+    SortPriority: -1
+  64af9075-80bd-3d9e-95c9-61cc4aed2f8d:
+    Name: SHIMOROSHOW
+    Prefix: '&cГуччи &f'
+    Suffix: ''
+    SortPriority: -1
+  69d0b099-c955-3023-8366-dd8bf19068d8:
+    Name: Clauzy
+    Prefix: '&cАдмин &f'
+    Suffix: ''
+    SortPriority: -1
+  1a09eca1-4d32-3292-958c-da3d3d342492:
+    Name: NOVIKOV
+    Prefix: '&2Хакер &e'
+    Suffix: ''
+    SortPriority: -1
+  a8045330-ccd9-3029-9e7a-42b510f15d38:
+    Name: Lordpitt
+    Prefix: '&d&lГЭЙ &f'
+    Suffix: ''
+    SortPriority: -1
+  538f7693-a2aa-325d-8341-be1561ecab92:
+    Name: LLIkoJIbHuK
+    Prefix: '&a&l✔ &eBest &f'
+    Suffix: ''
+    SortPriority: -1
+  fa023683-29f3-3a7b-8d93-997297e8cd49:
+    Name: Hellstaff67
+    Prefix: '&cВладелец &f'
+    Suffix: ''
+    SortPriority: -1
+  fd0be7c6-efe2-3ad3-9c3f-4980284fa7cd:
+    Name: Sanya_OP_ME
+    Prefix: '&dДонор &f'
+    Suffix: ''
+    SortPriority: -1
+  50e1882d-0a33-3151-8ca3-9a7e48f3d8bd:
+    Name: itachiUC
+    Prefix: '&6Главарь &f'
+    Suffix: ''
+    SortPriority: -1
+  f794c174-d33b-4a44-a97a-d800e4d62f50:
+    Name: Jinga
+    Prefix: Odmen
+    Suffix: ''
+    SortPriority: -1
+  763fbc98-7760-301e-8a9e-df46e512ff48:
+    Name: MrNed
+    Prefix: '&a☾Игрок☽ &f'
+    Suffix: ''
+    SortPriority: -1
+  a409a23c-027c-3d53-929a-168c079c3e7e:
+    Name: MaratikiSan
+    Prefix: '&a☾Игрок☽ &f'
+    Suffix: ''
+    SortPriority: -1
+  3aab7c56-98af-3987-9053-0236636c4a1b:
+    Name: HoTyPe
+    Prefix: '&fツ &6'
+    Suffix: '&c❤'
+    SortPriority: -1
+  37932b4c-2fd9-3842-8356-42ddcb126e7b:
+    Name: Lmperatoreq
+    Prefix: '&f[&4Owner&f] &f'
+    Suffix: ''
+    SortPriority: -1

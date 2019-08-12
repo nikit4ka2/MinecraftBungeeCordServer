@@ -1,0 +1,18 @@
+usage:
+- '&a&lLiteReport'
+- '&fДля репорта игрока вводи: &a/report [игрок] [причина]'
+admin_usage:
+- '&fДля просмотра репортов вводи: &a/report list'
+- '&fДля очистки списка репортов вводи: &a/report clear'
+- '&fДля удаления репорта вводи: &a/report delete [игрок]'
+reports: "&c[Репорт] &fИгрок &c%player% &fзарепортил &c%target% &fпо причине &c%reason%"
+new_report: "&c[Репорт] &fИгрок &c%player% &fзарепортил &c%target% &fпо причине &c%reason%"
+reported: "&c[Репорт] &fВы зарепортили игрока &c%target% &fпо причине &c%reason%"
+report_target_title: "&c%player%;&fЗарепортил вас"
+net_prav: "&c[Репорт] &fУ вас нет прав для этого!"
+player_off: "&c[Репорт] &fИгрока нет на сервере"
+already_reported: "&c[Репорт] &fВы уже репортили этого игрока"
+report_deleted: "&c[Репорт] &fВы удалили репорт"
+not_have_delete: "&c[Репорт] &fДанный игрок еще никого не репортил"
+all_reports_deleted: "&c[Репорт] &fВсе репорты удалены"
+cleared: "&c[Репорт] &fНет ни одного репорта"

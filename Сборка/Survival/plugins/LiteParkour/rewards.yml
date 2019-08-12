@@ -1,0 +1,11 @@
+version: 3
+'5':
+  commands:
+  - give %player% minecraft:diamond 1
+  - lp message %player% &eНотуре бешоный &axD
+  - lp message %player% &eНотуре бешоный &axD
+'10':
+  commands:
+  - give %player% minecraft:golden_apple 1 1
+  - lp broadcast %player% &eНотуре бешоный &axD
+  - lp broadcast %player% &eНотуре бешоный &axD

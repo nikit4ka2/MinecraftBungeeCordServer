@@ -1,0 +1,66 @@
+Groups:
+  default:
+    Permission: nte.default
+    Prefix: '&a| Игрок &f'
+    Suffix: '&f'
+    SortPriority: 12
+  donor:
+    Permission: nte.donor
+    Prefix: '&d| Донор &f'
+    Suffix: '&f'
+    SortPriority: 11
+  gamer:
+    Permission: nte.gamer
+    Prefix: '&e| Геймер &f'
+    Suffix: '&f'
+    SortPriority: 10
+  lord:
+    Permission: nte.lord
+    Prefix: '&b| Лорд &f'
+    Suffix: '&f'
+    SortPriority: 9
+  legend:
+    Permission: nte.legend
+    Prefix: '&e| Легенда &f'
+    Suffix: '&f'
+    SortPriority: 8
+  admin:
+    Permission: nte.admin
+    Prefix: '&c| Админ &f'
+    Suffix: '&f'
+    SortPriority: 7
+  titan:
+    Permission: nte.titan
+    Prefix: '&9| Титан &f'
+    Suffix: '&f'
+    SortPriority: 6
+  anti:
+    Permission: nte.anti
+    Prefix: '&a| Игрок &f'
+    Suffix: '&f'
+    SortPriority: 12
+  glav:
+    Permission: nte.glav
+    Prefix: '&6| Главарь &f'
+    Suffix: '&f'
+    SortPriority: 5
+  lite:
+    Permission: nte.lite
+    Prefix: '&c| Владелец &f'
+    Suffix: '&f'
+    SortPriority: 4
+  helper:
+    Permission: nte.helper
+    Prefix: '&9| Хелпер &6'
+    Suffix: '&f'
+    SortPriority: 3
+  moder:
+    Permission: nte.moder
+    Prefix: '&9| Модер &6'
+    Suffix: '&f'
+    SortPriority: 2
+  owner:
+    Permission: nte.owner
+    Prefix: '&f[&4Owner&f] &f'
+    Suffix: '&f'
+    SortPriority: 1

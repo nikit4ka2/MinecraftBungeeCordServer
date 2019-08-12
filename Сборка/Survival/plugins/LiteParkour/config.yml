@@ -1,0 +1,56 @@
+##########################################################
+#                   -=[Rogue Parkour]=-                  #
+#                                                        #
+#                           BY                           #
+#                         Kledioz                        #
+#                                                        #
+#                     [omegacraft.cl]                    #
+##########################################################
+
+version: 5
+
+#Positions
+Positions:
+    world: 'world'
+    pos1:
+        X: 0
+        Y: 0
+        Z: 0
+    pos2:
+        X: 0
+        Y: 0
+        Z: 0
+    start:
+        X: 0
+        Y: 0
+        Z: 0
+
+#Dem good mysql
+#enabled = false | I will store player´s highscore on a flatfile (players.yml)
+#enabled = true  | I will store player´s highscore on a beautiful mysql database.
+MYSQL:
+    enabled: false
+    ip: 0.0.0.0
+    port: 3306
+    user: root
+    password: 'ilovespigot'
+    database: RPScores
+#Game options
+
+#Blocks: ID:(TRUE IF YOU WANT TO RANDOM DATA, EXAMPLE: 159:4, 159:8|| FALSE IF YOU WANT TO 0, EXAMPLE: 159:0....)
+#When a player starts the parkour its gonna take randomly a block listed down here..
+blocks:
+    - '159:true'
+    - '35:true'
+    - '95:true'
+    - '160:true'
+#Particle: Search name particles on https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Effect.html
+particle: 'EXPLOSION'
+#Always-event: This is a multiplier for players getting rewards twice (commands executes twice), 
+#but you can enable it manually with /rp event...
+#Users or VIPS should have permission "rogueparkour.double"
+always-event: false
+#Limit: Max players that are able to play in the parkour..
+limit: 0
+#Limit block type: 0 = Push backwards, 1=Teleport to /rp respawn point , 2=Do nothing..
+limit-block-type: 0

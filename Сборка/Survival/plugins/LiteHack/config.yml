@@ -1,0 +1,9 @@
+Try: '&cПробуем взломать сервер'
+Fail: '&cНе удалось взломать сервер :('
+Again: '&fПопробуйте в следующий раз'
+Reload: '&cLite&fSpace &aКонфиг перезагружен.'
+Hacked: '&fВы взломали &cДонат!'
+Reward: '&fВы взломали &cДонат!'
+Group_set: lord
+Congrats: ''
+Congrats2: ''
