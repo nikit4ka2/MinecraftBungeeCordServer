@@ -1,0 +1,14 @@
+Spawn:
+  x: 223.46804005197615
+  y: 50.0
+  z: 186.5159522690753
+  pitch: 0.59997386
+  yaw: -1.990578
+  world: world
+Worlds: []
+Prefix: '&f[&aFaweMc&f] '
+TpJoin: false
+Time:
+  enable: false
+  time: 5
+  message: секунд

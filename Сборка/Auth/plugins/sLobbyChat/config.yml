@@ -1,0 +1,15 @@
+disable_chat: "&a&l|| &fЧат на данном сервере запрещен. Выберите режим!"
+disable_cmd: "&a&l|| &fКоманды на данном сервере запрещены. Выберите режим!"
+allow_cmd:
+- 'spawn'
+- 'donate'
+- 'menu'
+- 'music'
+- 'reg'
+- 'register'
+- 'l'
+- 'login'
+- 'cp'
+- 'changepassword'
+- 'setspawn'
+- 'hack'
