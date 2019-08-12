@@ -1,0 +1,63 @@
+ip_forward: true
+forge_support: false
+network_compression_threshold: 256
+stats: be011944-8c74-4d17-a02f-dd1188301fa7
+groups:
+  Danatelom:
+  - admin
+servers:
+  auth:
+    motd: '&aОнлайн'
+    address: localhost:25563
+    restricted: false
+  lobby:
+    motd: '&aОнлайн'
+    address: localhost:25564
+    restricted: false
+  surv:
+    motd: '&aОнлайн'
+    address: localhost:25567
+    restricted: false
+  skypvp:
+    motd: '&aОнлайн'
+    address: localhost:25562
+    restricted: false
+timeout: 30000
+player_limit: 1000
+listeners:
+- query_port: 25565
+  motd: '&cСервер загружается...'
+  tab_list: GLOBAL_PING
+  query_enabled: true
+  proxy_protocol: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  ping_passthrough: false
+  priorities:
+  - auth
+  bind_local_address: true
+  host: localhost:25565
+  max_players: 1000
+  tab_size: 60
+  force_default_server: true
+prevent_proxy_connections: false
+permissions:
+  default:
+  - skinsrestorer.playercmds
+  admin:
+  - sc.use
+  - de24.bungeetools.whereis
+  - de24.bungeetools.broadcast
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+online_mode: false
+log_commands: false
+disabled_commands:
+- disabledcommandhere
+- alert
+- greload
+- server
+- end
+connection_throttle: 0

@@ -1,0 +1,1 @@
+screen -S bung sh start.sh

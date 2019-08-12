@@ -1,0 +1,46 @@
+SR_LINE: '&c&m----------------------------------------'
+PLAYER_HAS_NO_PERMISSION: '&e&l<&a&l◈&e&l> &fНедостаточно прав.'
+HELP_PLAYER: |2-
+      &f[&c*&f] &a/skin set &f[&eник скина&f] - меняет ваш скин.
+      &f[&c*&f] &a/skin &f[&eник скина&f] - меняет ваш скин.
+      &f[&c*&f] &a/skin clear &f- очищает ваш скин.
+HELP_SR: '    &a/sr &f- админ команды'
+NOT_PREMIUM: '&e&l<&a&l◈&e&l> &fИгрока с таким скином не существует &e:('
+SKIN_COOLDOWN_NEW: '&e&l<&a&l◈&e&l> &fВы уже меняли скин! подождите &a%s &fсекунд.'
+SKIN_CHANGE_SUCCESS: '&e&l<&a&l◈&e&l> &fВы сменили скин! Перезайдите на сервер.'
+SKIN_CLEAR_SUCCESS: '&e&l<&a&l◈&e&l> &fВы очистили свой скин! Перезайдите на сервер.'
+HELP_ADMIN: |2-
+      &a/sr config &f- cправочная страница, полезная в настройках конфигурации игры
+      &a/sr set &f[&eник&f] [&eник скина&f] &f- Поставить игроку скин...
+      &a/sr drop &f[&eник&f] &f- Дропануть игроку скин.
+      &a/sr reload &f- Перезагрузить конфиг.
+      &a/sr props &f[&eник&f] &f- Отобразить действительный скин игроков как свойства..
+      &a/sr status &f - Проверить, доступен ли Mojang API.
+ADMIN_SET_SKIN: '&e&l<&a&l◈&e&l> &fВы сменили игроку - &c%player &fскин'
+NOT_ONLINE: '&e&l<&a&l◈&e&l> Игрок не в сети &a:('
+SKIN_DATA_DROPPED: '&e&l<&a&l◈&e&l> &fВы дропнули игроку - &c%player &fскин'
+RELOAD: '&e&l<&a&l◈&e&l> &fКонфиг был успешно перезагружен!'
+HELP_CONFIG: |2-
+      &a/sr joinSkins &f[&ctrue/false&f] &f -Переключает скины при входе.
+      &a/sr SkinWithoutPerm &f[&ctrue/false&f] &f- Настраивает раздел &cDisabledSkins.
+      &a/sr SkinExpiresAfter &f[&cвремя&f] &f- Как будет долго кэширофаться скин.
+      &a/sr skinCooldown &f[&cвремя&f] &f- Поставить CoolDown на команду - &c/skin
+      &a/sr defaultSkins &f[&ctrue/false/add&f] &f[&cскин&f] &f- Настраивает раздел &cDefaultSkins.
+      &a/sr updater &f[&ctrue/false&f] &f- Переключает обновление
+SKIN_DISABLED: '&e&l<&a&l◈&e&l> &fЭтот скин отключен администратором!'
+ALT_API_FAILED: '&e&l<&a&l◈&e&l> &fAPI данных скинов перегружен, пожалуйста попробуйте позже!'
+NO_SKIN_DATA: '&e&l<&a&l◈&e&l> &fДанные о скине не получены! Является ли это у игрока скин?'
+STATUS_OK: '&e&l<&a&l◈&e&l> &fУспешное соединение API Mojang!'
+GENERIC_ERROR: '&e&l<&a&l◈&e&l> &fПроизошла ошибка при запросе
+   данные о скине, повторите попытку позже!'
+WAIT_A_MINUTE: '&e&l<&a&l◈&e&l> &fПодождите минуту, прежде чем запрашивать
+   скин снова. &f(&cОграниченная ставка&f)'
+NOT_PLAYER: '&e&l<&a&l◈&e&l> &fВы не игрок!'
+OUTDATED: "&e&l<&a&l◈&e&l> &fВы используете устаревшую версию &cSkinsRestorer!\n\
+  &cПлиз, установи ласт версию со спигота: \n&chttps://www.spigotmc.org/resources/skinsrestorer.2124/"
+MENU_OPEN: '&fОткрытие меню скинов ...'
+PLAYERS_ONLY: '&fЭти команды предназначены только для игроков!'
+NEXT_PAGE: '&c&l»&f Следующая страница&c&l »'
+PREVIOUS_PAGE: '&c&l»&7 Предыдущая страница&c&l «'
+REMOVE_SKIN: '&c&l»&f Убрать скин&c&l »'
+SELECT_SKIN: '&e&lКликни, чтобы установить скин.'

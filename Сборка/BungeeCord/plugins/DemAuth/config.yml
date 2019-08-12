@@ -1,0 +1,116 @@
+#Создано специально для https://vk.com/xmongers
+MySQL:
+  enable: false
+  host: '127.0.0.1'
+  table: 'auth'
+  username: 'username'
+  password: 'password'
+
+TABLIST:
+    ENABLE: true
+    UP: '&e&lАвторизация'
+    DOWN: '{new}&c&l| {cmd} &c&l|'
+    COMMANDS:
+        REGISTER: '&e/register [Пароль] [Пароль]'
+        LOGIN: '&e/login [Пароль]'
+
+AUTH:
+    - Auth
+
+SURVIVAL:
+    - Lobby
+
+PROTECT:
+    - '_Demirug_:127.0.0.1'
+
+ADMINS:
+    - Dyooxa
+
+CONNECT_LAST_SERVER: false
+#Возвращать игрока к последнему подключенному серверу
+BLACK-SERVERS:
+    - SW-1
+    - SW-2
+    - SW-3
+#К данным серверам игрок не будет подключатся при переподключении (Если включен CONNECT_LAST_SERVER)
+HASH: DISABLED
+#Доступно: MD5, SHA256, CRC32
+#Если убирать или менять тип хеширования необходимо удалять базу данных
+
+TITLES:
+    LOGIN:
+        TITLE: '&a&lАвторизуйтесь'
+        SUBTITLE: '&e/login [Пароль]'
+    REGISTER:
+        TITLE: '&a&lЗарегистрируйтесь'
+        SUBTITLE: '&e/register [Пароль] [Повтор пароля]'
+
+Email:
+    Enable: false
+    SMTP: 'smtp.gmail.com'
+    Username: 'test@gmail.com'
+    Password: 'password'
+    Company: 'mc.ServerName.com'
+    Letters:
+        newPassword:
+            subject: 'Новый пароль'
+            text: '<center><h1>DemAuth | Новый Пароль</h1><h>На аккаунте {player} установлен новый пароль {password}</h></center><img src="https://i.imgur.com/Icr6wvi.png">'
+        confirmCode:
+            subject: 'Код для подтверждения'
+            text: '<center><h1>DemAuth | Код подтверждения</h1><h>Код для подтверждения: {code}</h></center><img src="https://i.imgur.com/Icr6wvi.png">'
+        Dispatch:
+            subject: 'Информация'
+            text: '<center><h1>DemAuth | Рассылка</h1><h>Информация: {text}</h></center><img src="https://i.imgur.com/Icr6wvi.png">'
+    
+MAX-PASSWORD-ERRORS: 3
+
+BAN:
+    ENABLE: true
+    #После перезагрузки прошлые баны слетают
+    TIME: 1h
+    #Доступно: y(год), d(день), h(час), m(минута), s(секунда)
+    KICK: '&6Auth &7> &fВаш IP заблокирован за неверно введенный пароль{new}&6Auth &7> &fДо разблокировки: &c{time}'
+
+SESSION-LENGTH: 24
+#В часах
+MESSAGES:
+    AlreadyRegistered: '&6Auth &7> &fВы уже зарегистрированы'
+    AlreadyLogin: '&6Auth &7> &fВы уже авторизированны'
+    SuccessRegister: '&6Auth &7> &fВы успешно зарегистрировались'
+    SuccessLogin: '&6Auth &7> &fВы успешно авторизовались'
+    NoRegistered: '&6Auth &7> &fВы не зарегистрированы'
+    NoLogin: '&6Auth &7> &fВы не авторизованы'
+    Register: '&6Auth &7> &fЗарегистрируйтесь /register [Пароль] [Повтор Пароля]'
+    Login: '&6Auth &7> &fАвторизуйтесь /login [Пароль]'
+    ChangePasswordInfo: '&6Auth &7> &fСинтаксис: /changepassword [Старый Пароль] [Пароль] [Повтор Пароля]'
+    WrongOldPassword: '&6Auth &7> &fСтарый пароль введен неверно'
+    RegisterInfo: '&6Auth &7> &fСинтаксис: /register [Пароль] [Повтор Пароля]'
+    PasswordsDontMatch: '&6Auth &7> &fПароли не совпадают'
+    RecoveryInfo: '&6Auth &7> &fСинтаксис: /recovery [Email]'
+    NoEmail: '&6Auth &7> &fНа аккаунт не привязана электронная почта'
+    RecoveryWrongEmail: '&6Auth &7> &fНеверный Email'
+    RecoverynewPassword: '&6Auth &7> &fВаш новый пароль: &c{pass}'
+    PasswordMinLenght: '&6Auth &7> &fМинимальная длина пароля &c4&f символа'
+    PasswordMaxLenght: '&6Auth &7> &fМаксимальная длина пароля &c16&f символов'
+    PasswordIncorrectSymbols: '&6Auth &7> &fВ пароле содержатся запрещенные символы'
+    PasswordChanged: '&6Auth &7> &fПароль успешно изменен'
+    LoginInfo: '&6Auth &7> &fСинтаксис: /login [Пароль]'
+    EmailInfo: '&6Auth &7> &fПривязать Email: /email [Адресс]'
+    EmailDisabled: '&6Auth &7> &fEmail отключен'
+    EmailTied: '&6Auth &7> &fEmail уже привязан{new}&6Auth &7> &fОтвязать Email - &c/unemail'
+    EmailRecomend: '&6Auth &7> &fРекомендуем вам сделать привязку на Email - &c/email'
+    EmailInfoSend: '&6Auth &7> &fНа ваш Email отправлено письмо с кодом для подтверждения{new}&6Auth &7> &fИспользование: /confirm [Код]'
+    EmailUntie: '&6Auth &7> &fEmail успешно отвязан'
+    PasswordChangeEmailSend: '&6Auth &7> &fНа ваш Email отправлено письмо с кодом для смены пароля аккаунта{new}&6Auth &7> &fИспользование: /confirm [Код]'
+    ConfirmInfo: '&6Auth &7> &fСинтаксис: /confirm [Код]'
+    InCorrectEmail: '&6Auth &7> &fУказан некорректный Email'
+    WrongPassword: '&6Auth &7> &fНеверный пароль! У вас осталось &c{attempts}&f попытка(и){new}&6Auth &7> &fЗабыли пароль? - &c/recovery'
+    WrongConfirmCode: '&6Auth &7> &fНеверный код'
+    EmailSet: '&6Auth &7> &fEmail успешно установлен'
+    EmailUsed: '&6Auth &7> &fДанный Email адресс уже используется'
+    TooManyLoginAttempts: '&6Auth &7> &fСлишком много попыток авторизации'
+    RegistrationTimeOut: '&6Auth &7> &fВы не успели авторизоватся'
+    NameIncorrectSymbols: '&6Auth &7> &fВ нике содержатся запрещенные символы | Разрешено использовать только буквы и цифры латинского алфавита'
+    ConnectError: '&7< &6Auth &7>{new}{new}&fОшибка при телепортации к &c{type} &fсерверу{new}Сообщите администрации'
+    LogOut: '&6Auth &7> &fВы вышли'
+    NotYourAccount: '&7< &6Auth &7>{new}{new}&fДанный аккаунт не принадлежит вам'
