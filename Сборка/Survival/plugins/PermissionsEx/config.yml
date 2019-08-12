@@ -1,0 +1,19 @@
+permissions:
+  backend: file
+  backends:
+    file:
+      file: permissions.yml
+      type: file
+  debug: false
+  allowOps: false
+  user-add-groups-last: false
+  log-players: false
+  createUserRecords: false
+  informplayers:
+    changes: false
+  basedir: plugins/PermissionsEx
+  superperms: {}
+multiserver:
+  use-netevents: true
+updater: true
+alwaysUpdate: false

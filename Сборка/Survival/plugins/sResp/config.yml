@@ -1,0 +1,19 @@
+i_0:
+  title: "&c%name%&f, ты мёртв"
+  subtitle: ""
+i_1:
+  title: "&cРеспавн..."
+  subtitle: "&f4"
+i_2:
+  title: "&cРеспавн..."
+  subtitle: "&f3"
+i_3:
+  title: "&cРеспавн..."
+  subtitle: "&f2"
+i_4:
+  title: "&cРеспавн..."
+  subtitle: "&f1"
+spawn:
+  msg: "&f[&c*&f] &fТы заспавнен!"
+  title: "&f[&c*&f] &fТы воскрешен!"
+  subtitle: "&f[&c*&f] &fне умирай больше!"

@@ -1,0 +1,169 @@
+mysql:
+  host: '127.0.0.1'
+  user: 'root'
+  pass: ''
+  database: 'main'
+
+group-rank:
+  default: 1
+  donor: 2
+  lord: 3
+  legend: 4
+  admin: 5
+  titan: 6
+  anti: 7
+  glav: 8
+  lite: 9
+  helper: 10
+  owner: 11
+
+cases:
+  case1:
+    contents:
+      Donor:
+        chance: 70
+        group: donor
+
+        title: ''
+        subtitle: ''
+        in: 20
+        stay: 60
+        out: 20
+
+        item:
+          id: 159
+          data: 14
+          name: '&d☾Донор☽'
+      Lord:
+        chance: 75
+        group: lord
+
+        title: ''
+        subtitle: ''
+        in: 20
+        stay: 60
+        out: 20
+
+        item:
+          id: 159
+          data: 4
+          name: '§b☾Лорд☽'
+      Legend:
+        chance: 65
+        group: legend
+
+        title: ''
+        subtitle: ''
+        in: 20
+        stay: 60
+        out: 20
+
+        item:
+          id: 159
+          data: 5
+          name: '§e☾Легенда☽'
+      Admin:
+        chance: 52
+        group: admin
+
+        title: ''
+        subtitle: ''
+        in: 20
+        stay: 60
+        out: 20
+
+        item:
+          id: 159
+          data: 12
+          name: '§c☾Админ☽'
+      Titan:
+        chance: 30
+        group: titan
+
+        title: ''
+        subtitle: ''
+        in: 20
+        stay: 60
+        out: 20
+
+        item:
+          id: 368
+          data: 0
+          name: '§9☾Титан☽'
+      Anti:
+        chance: 10
+        group: anti
+
+        title: ''
+        subtitle: ''
+        in: 20
+        stay: 60
+        out: 20
+
+        item:
+          id: 385
+          data: 0
+          name: '§e☾Анти-Грифер☽'
+      Glav:
+        chance: 8
+        group: glav
+
+        title: ''
+        subtitle: ''
+        in: 20
+        stay: 60
+        out: 20
+
+        item:
+          id: 264
+          data: 0
+          name: '§6☾Главарь☽'
+      Lite:
+        chance: 8
+        group: lite
+
+        title: ''
+        subtitle: ''
+        in: 20
+        stay: 60
+        out: 20
+
+        item:
+          id: 388
+          data: 0
+          name: '§c☾Владелец☽'
+
+key:
+  id: TRIPWIRE_HOOK
+  name: '&e&lОткрыть кейс с привилегиями'
+  lore:
+   - '&fУ вас &a{keys}&f ключей'
+   - '&fПривилегии, которые могут выпасть:'
+   - ''
+   - '&d☾Донор☽ &f- &c9 &fрублей'
+   - '&b☾Лорд☽ &f- &c19 &fрублей'
+   - '&e☾Легенда☽ &f- &c29 &fрублей'
+   - '&c☾Админ☽ &f- &c49 &fрублей'
+   - '&9☾Титан☽ &f- &c69 &fрублей'
+   - '&e☾Анти-Грифер☽ &f- &c99 &fрублей'
+   - '&6☾Главарь☽ &f- &c149 &fрублей'
+   - '&c☾Владелец☽ &f- &c249 &fрублей'
+   - ''
+   - '&fПокупка на сайте &a&lLiteSpace.ru'
+
+messages:
+  no-permission: '§cLite§fSpace §e> §fНедостаточно прав.'
+  no-key: '§f[§cCases§f] §fНедостаточно ключей. Купить их можно тут §f-> §a&lLiteSpace.ru'
+  opening-case: '§cLite§fSpace §e> §fВы уже открываете §cкейс§f.'
+  opening-case-other: '§cLite§fSpace §e> §fПодождите, пожалуйста. Этот §cкейс §fуже открывается.'
+  database-error: '§cLite§fSpace §e> §fПроизошла ошибка. Сообщите администрации.'
+
+  announcement:
+   - '&f[&cCases&f] &eИгрок &a{player} &eоткрыл донат-кейс! и получил {group}'
+
+  help:
+   - '§c/dc help §f- Помощь по плагину'
+   - '§c/dc create §f[§cкейс§f] §f- Установить кейс §f[§cСмотрите на блок§f]'
+   - '§c/dc delete §f- Удалить кейс §f(§cСмотрите на кейс§f)'
+   - '§c/dc givekey §f[§cкейс§f] §f[§cигрок§f] §f[§cключи§f] - Выдать ключи игроку'
+   - '§c/dc setkey §f[§cкейса§f] §f[§cигрок§f] §f[§cключи§f] - Установить ключи игроку'

@@ -1,0 +1,131 @@
+commands:
+- //hollow
+- //overlay
+- //naturalize
+- //walls
+- //faces
+- //smooth
+- //regen
+- //deform
+- //replace
+- //stack
+- //set
+- //move
+- //center
+- //cut
+- /worldedit:/hollow
+- /worldedit:/overlay
+- /worldedit:/naturalize
+- /worldedit:/walls
+- /worldedit:/faces
+- /worldedit:/smooth
+- /worldedit:/regen
+- /worldedit:/deform
+- /worldedit:/replace
+- /worldedit:/stack
+- /worldedit:/set
+- /worldedit:/move
+- /worldedit:/center
+- /worldedit:/cut
+arguments:
+- /clearinventory:1:*
+- /clear:1:*
+- /ci:1:*
+- /lightning:1:*
+- /thor:1:*
+- /kill:1:*
+- /shock:1:*
+- /slay:1:*
+- /worldedit:/expand:3:me
+- //expand:3:me
+- /rg:3:build
+- /region:3:build
+- //hollow:1:0
+- //overlay:1:0
+- //naturalize:1:0
+- //walls:1:0
+- //faces:1:0
+- //smooth:1:0
+- //regen:1:0
+- //deform:1:0
+- //replace:1:0
+- //stack:1:0
+- //set:1:0
+- //move:1:0
+- //center:1:0
+- //cut:1:0
+- /worldedit:/hollow:1:0
+- /worldedit:/overlay:1:0
+- /worldedit:/naturalize:1:0
+- /worldedit:/walls:1:0
+- /worldedit:/faces:1:0
+- /worldedit:/smooth:1:0
+- /worldedit:/regen:1:0
+- /worldedit:/deform:1:0
+- /worldedit:/replace:1:0
+- /worldedit:/stack:1:0
+- /worldedit:/set:1:0
+- /worldedit:/move:1:0
+- /worldedit:/center:1:0
+- /worldedit:/cut:1:0
+exceptions:
+- //hollow 0
+- //overlay 0
+- //naturalize 0
+- //walls 0
+- //faces 0
+- //smooth 0
+- //regen 0
+- //deform 0
+- //replace 0
+- //stack 0
+- //set 0
+- //move 0
+- //center 0
+- //cut 0
+- /worldedit:/hollow 0
+- /worldedit:/overlay 0
+- /worldedit:/naturalize 0
+- /worldedit:/walls 0
+- /worldedit:/faces 0
+- /worldedit:/smooth 0
+- /worldedit:/regen 0
+- /worldedit:/deform 0
+- /worldedit:/replace 0
+- /worldedit:/replace 0
+- /worldedit:/stack 0
+- /worldedit:/set 0
+- /worldedit:/move 0
+- /worldedit:/center 0
+- /worldedit:/cut 0
+exceptions2:
+- '//hollow 0 '
+- '//overlay 0 '
+- '//naturalize 0 '
+- '//walls 0 '
+- '//faces 0 '
+- '//smooth 0 '
+- '//regen 0 '
+- '//deform 0 '
+- '//replace 0 '
+- '//stack 0 '
+- '//set 0 '
+- '//move 0 '
+- '//center 0 '
+- '//cut 0 '
+- '/worldedit:/hollow 0 '
+- '/worldedit:/overlay 0 '
+- '/worldedit:/naturalize 0 '
+- '/worldedit:/walls 0 '
+- '/worldedit:/faces 0 '
+- '/worldedit:/smooth 0 '
+- '/worldedit:/regen 0 '
+- '/worldedit:/deform 0 '
+- '/worldedit:/replace 0 '
+- '/worldedit:/replace 0 '
+- '/worldedit:/stack 0 '
+- '/worldedit:/set 0 '
+- '/worldedit:/move 0 '
+- '/worldedit:/center 0 '
+- '/worldedit:/cut 0 '
+

@@ -1,0 +1,6 @@
+locations:
+- world: world
+  x: -228
+  y: 76
+  z: 336
+  case: case1

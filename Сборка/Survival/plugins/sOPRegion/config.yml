@@ -1,0 +1,26 @@
+# opsrg reload
+# opsrg add rgname
+# opsrg del rgname
+# opsrg addmine rgname
+# opsrg delmine rgname
+# opsrg list
+# opsrg list number
+# opsrg listmine
+# opsrg listmine number
+prefix: '&e[§cLite§fSpace§e]'
+no_break: '%prefix% У тебя нет прав &a&lломать&f здесь'
+title: '&a&lВнимание!'
+subtitle: '&fТебе тут ломать нельзя!'
+add: '%prefix% Регион &c%region%&f добавлен в конфиг!'
+del: '%prefix% Регион &c%region%&f удален из конфига!'
+already_have: '%prefix% Регион &c%region%&f уже есть в конфиге!'
+not_have: '%prefix% Регион &c%region%&f отсутсвует в конфиге!'
+regions:
+- ocnova
+- mob
+- pvp
+- jail
+regionsmine:
+- mine
+allow_users:
+- Reboot

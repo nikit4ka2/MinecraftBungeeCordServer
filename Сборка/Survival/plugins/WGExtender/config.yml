@@ -1,0 +1,55 @@
+claim:
+  vertexpand:
+    enabled: false
+  blocklimits:
+    enabled: true
+    limits:
+      owner: 1316134912
+      default: 100000
+      helper: 400000
+      legend: 150000
+      lord: 300000
+      titan: 500000
+      admin: 180000
+      glav: 180000
+      lite: 350000
+      vip: 200000
+      anti: 300000
+regionprotect:
+  flow:
+    lava:
+      enabled: false
+    water:
+      enabled: false
+  ignitebyplayer:
+    enabled: false
+  fire:
+    spread:
+      toregion:
+        enabled: false
+      inregion:
+        enabled: false
+    burn:
+      enabled: false
+  explosion:
+    block:
+      enabled: false
+    entity:
+      enabled: false
+  pistonmove:
+    enabled: false
+customflags:
+  damage-animals:
+    enabled: false
+  block-interact:
+    enabled: false
+  entity-interact:
+    enabled: false
+autoflags:
+  enabled: false
+  flags:
+    use: deny
+    chest-access: deny
+restrictcommands:
+  enabled: false
+  commands: []

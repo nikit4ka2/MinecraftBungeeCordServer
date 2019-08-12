@@ -1,0 +1,57 @@
+header:
+- ''
+- '  &c&lLite&f&lSpace'
+- ''
+- ' &f&lСкидка &a&l90% &f&lна весь донат'
+- ''
+footer:
+- ''
+- ' &f&lНаш айпи: &6&lmc.litespace.ru'
+- ' &f&lСайт авто-доната - &a&lLiteSpace.ru'
+- '  &f&lГруппа вконтакте - &d&lvk.com/litespace_mc'
+- ''
+- '   &f&lОнлайн: [&c&l%online%/150&f&l] '
+tab: true
+titles: true
+online_value: 1
+title: "&fПривет, &c%player%"
+subtitle: "&aУдачи на нашем сервере"
+fadeIn: 20
+stay: 30
+fadeOut: 20
+permission: "§e§l<§a§l◈§e§l> &fУ тебя нет прав!"
+reload: "§e§l<§a§l◈§e§l> &fВы перезапустили конфиг!"
+change_prefix: "§e§l<§a§l◈§e§l> &fВы изменили префикс игрока &a%player%&f на %prefix%"
+player_off: "§e§l<§a§l◈§e§l> &fЭтот игрок не в сети!"
+usage:
+- '&fПлагин на таб'
+- '§e§l<§a§l◈§e§l> &fСделать кастомный префикс - &a/tab prefix (ник) (префикс)'
+- '§e§l<§a§l◈§e§l> &fПерезапустить конфиг - &a/tab reload'
+############### ПРЕФИКСЫ
+prefixes: false
+UseAsAPI: false
+RewriteDisplayNames: true
+EnableCustomTags: false
+Big_Prefix: "§e§l<§a§l◈§e§l> &fУ тебя слишком большой префикс!"
+Retag:
+  enabled: false
+  interval: 30 #в секундах
+prefix:
+  default:
+    prefix: "&8* &c"
+    priority: 6
+  vip:
+    prefix: "&8☾&cВип&8☽ &f"
+    priority: 5
+  premium:
+    prefix: "&8☾&6Премиум&8☽ &f"
+    priority: 4
+  creative:
+    prefix: "&8☾&eКреатив&8☽ &f"
+    priority: 3
+  admin:
+    prefix: "&8☾&aАдмин&8☽ &f"
+    priority: 2
+  owner:
+    prefix: "&c☾Owner☽ &f"
+    priority: 1

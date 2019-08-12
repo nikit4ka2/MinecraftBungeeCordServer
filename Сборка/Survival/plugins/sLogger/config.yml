@@ -1,0 +1,12 @@
+log:
+  template: '[%ip][%date (%world: %x,%y,%z)] %name: %content'
+  perplayerlog: true
+database:
+  usedatabase: false
+  type: mongodb
+  connection:
+    hostname: 127.0.0.1
+    database: sLogger
+    port: '27017'
+    username: example
+    password: example

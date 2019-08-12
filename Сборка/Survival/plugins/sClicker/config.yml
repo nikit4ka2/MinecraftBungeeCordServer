@@ -1,0 +1,22 @@
+action_bar: true
+action_bar_msg: "&fТебе выдано &c%money%&e⛂&f в кликере."
+
+message_to_chat: true
+give_message: "&f[&c*&f] &eТебе выдано &a%money%⛂&e в кликере!"
+
+permission_message: "&8(&c!&8)&f У тебя недостаточно прав для кликера!"
+messageIfClick: "&8(&c!&8)&f Нажми на изубрудный блок для получения бабла"
+groups:
+  owner: 150
+  moder: 150
+  helper: 150
+  lite: 150
+  glav: 80
+  anti: 55
+  titan: 40
+  admin: 30
+  legend: 20
+  gamer: 15
+  lord: 10
+  donor: 5
+  default: 3

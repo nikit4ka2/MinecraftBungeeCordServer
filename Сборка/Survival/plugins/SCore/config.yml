@@ -1,0 +1,5 @@
+permission: "§e§l<§a§l◈§e§l> &fУ тебя нет прав"
+modules: "§e§l<§a§l◈§e§l> &fАктивные модули &e(&a%size%&e) &a%modules%"
+join: "&c&l • %prefix% &c%player% &fзашел на сервер!"
+owners:
+- reboot
