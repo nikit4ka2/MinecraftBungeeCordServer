@@ -1,0 +1,17 @@
+﻿surv:
+  name: '&e&lϟ &aРежимы &e&lϟ'
+  id: 340
+  slot: 1
+  command: 'menu'
+  cooldown-seconds: 0
+  give-on-world-change: true
+  give-at-respawn: true
+  
+free:
+  name: '&e&lϟ &aБесплатный донат &e&lϟ'
+  id: 388
+  slot: 5
+  command: 'hack'
+  cooldown-seconds: 0
+  give-on-world-change: true
+  give-at-respawn: true

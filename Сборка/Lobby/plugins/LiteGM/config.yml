@@ -1,0 +1,16 @@
+Settings:
+  gamemodeCommandsEnabled: true
+  allowedGamemodes:
+  - SURVIVAL
+  - ADVENTURE
+  - CREATIVE
+  - SPECTATOR
+  globalAnnounceWhenPlayerChangeGM: true
+  gamemodeOnWorldChange:
+    keepPlayerGamemode: true
+    resetGamemodeInDisabledWorlds: true
+    resetPlayerGamemodeTo: SURVIVAL
+  keepFlyingOnGamemodeChange: false
+Disabled Worlds:
+- disabledWorld1
+- disabledWorld2

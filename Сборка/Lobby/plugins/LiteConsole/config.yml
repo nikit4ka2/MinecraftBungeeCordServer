@@ -1,0 +1,6 @@
+usage:
+- '&f[&c*&f] &fИспользование: &c/admin &f[&cкоманда&f]'
+commandtitle: "&aУспешно!;&fКоманда отправлена!"
+nopermission: "&cОшибка!;&fДоступно только избранным!"
+users:
+- Danatelom

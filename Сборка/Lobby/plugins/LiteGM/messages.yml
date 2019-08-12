@@ -1,0 +1,21 @@
+Prefix: '&f[&c*&f] &f'
+GamemodesNames:
+  survival: '&cВыживание'
+  adventure: '&cПриключения'
+  creative: '&cКреатив'
+  spectator: '&cСпектатор'
+Messages:
+  commandsDisabled: Чо-то не так!
+  commandUsage: 'Использование: &c/gamemode &f[&c1|2|3&f]'
+  commandUsagePlayer: 'Использование: &c/gamemode &f[&cник&f] &f[&c1|2|3&f]'
+  disabledGamemode: Этот режим выключен сервером!
+  disabledWorld: Вы в выключеном мире!
+  playerDisabledWorld: Игрок &c%player%&f в выключеном мире!
+  notNumber: Это не номер!
+  noPerms: Недостаточно прав.
+  setGamemode: 'Вы поставили режим: %gamemode%&f.'
+  alreadyGamemode: Вы уже находитесь в этом режиме.
+  playerAlreadyGamemode: Игрок &c%player%&f уже находится в этом режиме!
+  playerSetGamemode: Режим для игрока &c%player%&f поставлен на &c%gamemode%&f.
+  globalAnnounceWhenPlayerChangeGM: 'Игрок &c%player%&f поставил себе режим: &c%gamemode%&f.'
+  playerNotFound: Игрок &c%player%&f не в сети!

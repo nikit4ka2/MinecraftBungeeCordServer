@@ -1,0 +1,21 @@
+# Chest Commands by Filoghost
+# Tutorial: dev.bukkit.org/bukkit-plugins/chest-commands
+#                                                       .
+default-color:
+  lore: '&7'
+  name: '&f'
+multiple-commands-separator: ;
+anti-click-spam-delay: 200
+update-notifications: false
+use-console-colors: true
+use-only-commands-without-args: true
+try-to-hide-attributes: true
+default-item-name-color: '&f'
+default-lore-color: '&7'
+messages:
+  no-item-permission: '&e&lДля использование этой команды вам нужно разрешение &4%permission%&e.'
+  not-enough-money: '&e&lУ вас не хватает денег.'
+  no-required-item: '&cYou must have &e%amount%x %material% &c(ID: %id%, data value:
+    %datavalue%) for this.'
+  cost-bypassed: '&e&lВам всё бесплатно!'
+  no-inventory-space: '&e&lУ вас не хватило места в инвентаре , ваши вещи упали на пол'

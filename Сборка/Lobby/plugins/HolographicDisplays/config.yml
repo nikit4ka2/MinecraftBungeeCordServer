@@ -1,0 +1,39 @@
+# .
+# .  Read the tutorial at: http://dev.bukkit.org/bukkit-plugins/holographic-displays/
+# .
+# .  Plugin created by filoghost.
+# .
+space-between-lines: 0.02
+images:
+  symbol: '[x]'
+  transparency:
+    space: ' [|] '
+    color: '&7'
+bungee:
+  refresh-seconds: 3
+  use-RedisBungee: false
+  pinger:
+    enable: false
+    timeout: 500
+    offline-motd: '&cOffline, couldn''t get the MOTD.'
+    status:
+      online: '&aOnline'
+      offline: '&cOffline'
+    motd-remove-leading-trailing-spaces: false
+    servers:
+    - 'hub: 136.243.89.54:47824'
+    - 'classic: 136.243.89.54:47824'
+    - 'bw1: 127.0.0.1:24131'
+    - 'bw2: 127.0.0.1:24132'
+    - 'bw3: 127.0.0.1:24133'
+    - 'bw4: 127.0.0.1:24134'
+    - 'bw5: 127.0.0.1:24135'
+    - 'bw6: 127.0.0.1:24136'
+    - 'bw7: 127.0.0.1:24137'
+    - 'bw8: 127.0.0.1:24138'
+    - 'bw9: 127.0.0.1:24139'
+time:
+  format: H:mm
+  zone: GMT+1
+update-notification: false
+debug: false
