@@ -1,0 +1,8 @@
+[45;0;0]&f&lLiteSpace
+[0;2;0]&a&lLiteSpace
+[0;2;0]&e&lLiteSpace
+[0;2;0]&c&lLiteSpace
+[0;2;0]&b&lLiteSpace
+[0;2;0]&a&lLiteSpace
+[0;2;0]&e&lLiteSpace
+[0;2;0]&c&lLiteSpace

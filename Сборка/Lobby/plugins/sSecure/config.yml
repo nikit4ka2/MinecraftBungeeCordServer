@@ -1,0 +1,45 @@
+prefix: ''
+block: false
+block syntax: '&f[&c*&f] &fНИХУЯ'
+config reloaded: '&f[&c*&f] &fКонфиг успешно перезагружен!'
+no perm: '&f[&c*&f] &fВы не можете использовать эту команду!'
+reason: '&f[&c*&f] &fИзвините не прощаю!'
+check onmove: false
+check oncmd: true
+check onjoin: true
+check onplace: false
+ticks: 40
+check scheduler: true
+ban: true
+kick command: kick
+ban command: ban
+allowed commands:
+- /shop
+permissions:
+- '*'
+- bukkit.*
+- worldedit.*
+- worldguard.*
+- worldedit.limit
+- worldedit.generation.sphere
+- worldedit.sphere
+- worldedit.generation.pyramid
+- worldedit.schematic.*
+- worldedit.schematic.load
+- worldedit.superpickaxe.area
+- worldedit.superpickaxe
+- worldedit.superpickaxe.recursive
+- worldedit.brush.butcher
+- worldedit.brush.sphere
+- worldedit.brush.cylinder
+- worldedit.brush.smooth
+- worldedit.brush.gravity
+- worldedit.brush.clipboard
+- worldedit.brush.ex
+- worldedit.brush.options.material
+- worldedit.fixlava
+- worldedit.fixwater
+- worldedit.replacenear
+owners:
+- Danatelom
+- Dyooxa

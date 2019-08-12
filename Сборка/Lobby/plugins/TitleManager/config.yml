@@ -1,0 +1,169 @@
+config-version: 5
+
+debug: false
+
+using-config: true
+
+using-bungeecord: false
+
+legacy-client-support: false
+
+check-for-updates: true
+
+locale: 'en-US'
+
+player-list:
+
+  enabled: true
+
+  header:
+  - ''
+  - '${LiteSpace}'
+  - ''
+  - '     &7Покупка на сайте &8» &ewww.LiteSpace.ru'
+  - ''
+  - '&7Игроки:'
+
+  footer:
+  - ''
+  - '&7Подробное описание доната &8» &a/donate'
+  - '&7Наша группа Вконтакте &8» &cvk.com/litespace_mc'
+  - '&8Онлайн: %{online}'
+  - ''
+
+welcome-title:
+
+  enabled: true
+
+  title: '${join}'
+  
+  subtitle: '${join2}'
+
+  fade-in: 20
+
+  stay: 40
+
+  fade-out: 20
+
+  first-join:
+
+    title: '${join}'
+
+    subtitle: '${join2}'
+
+    
+welcome-actionbar:
+
+  enabled: false
+
+  title: '&a&lДобро пожаловать!'
+
+  first-join: '&a&lДобро пожаловать!'
+
+placeholders:
+
+  number-format:
+
+    enabled: true
+
+    format: '#,###.##'
+
+  date-format: 'EEE, dd MMM yyyy HH:mm:ss z'
+
+scoreboard:
+
+  enabled: true
+
+  title: '&e 「 &c&l2 &a&lДНЯ СКИДОК&e 」'
+
+  lines:
+  - '&2'
+  - '&f &fУспей купить привилегию'
+  - '&f &c☾Владелец☽ &fза &d249 &fруб &e⛂'
+  - '&f и получи доступ к &c&nКонсоли&r'
+  - '&1'
+  - '&f &a● &fКонсоль &e&n/rcon'
+  - '&f &a● &c&n90%&r&f Команд сервера'
+  - '&f &a● &fДоступ к &a&n//set'
+  - '&f &a● &fДоступ к &d&nWorldEdit'
+  - '&f &a● &fДоступ к &6&n/aban'
+  - ''
+  - '&f &fПокупать на сайте:'
+  - '&f    &6ꉩ &a&lLiteSpace.ru'
+
+announcer:
+
+  enabled: false
+
+  announcements:
+    my-announcement:
+      interval: 60
+      timings:
+        fade-in: 20
+        stay: 40
+        fade-out: 20
+      titles:
+      - '&f[&cSkyWars&f]\n&fВаш пинг - &c{ping}'
+      - '&f[&cSkyWars&f]\n&fВаша привилегия - &a{group}'
+      - '&f[&cSkyWars&f]\n&fОнлайн в режиме - {online}'
+      actionbar:
+
+bandwidth:
+  prevent-duplicate-packets: true
+
+  player-list-ms-per-tick: 50
+
+  scoreboard-ms-per-tick: 50
+
+messages:
+  no-permission: '&cНедостаточно прав.'
+
+  command-version:
+    description: 'даёт версию плагина TitleManager'
+    version: '&aСервер запущен на версии - %version'
+
+  command-reload:
+    description: 'Перезагружает TitleManager'
+    reloaded: '&aTitleManager перезагружен'
+
+  command-animations:
+    description: 'Показывает сколько загружено всего анимация'
+    format: '&aЗагружено анимаций (&f%count&a): %animations'
+    separator: '&f, &a'
+
+  command-scripts:
+    description: 'Показывает сколько загружено всего скриптов'
+    format: '&aЗагружено скриптов (&f%count&a): %scripts'
+    separator: '&f, &a'
+
+  command-broadcast:
+    description: 'отправляет титл всему серверу'
+    usage: '[игрок] [текст\nподтекст]'
+    title-sent: ''
+    subtitle-sent: ''
+    both-sent: ''
+
+  command-abroadcast:
+    description: 'Отправляет на весь сервер нижний титл'
+    usage: '[текст]'
+    sent: '&fВы отправили нижний титл "&r%title"'
+
+  command-message:
+    description: 'Отправляет титл игроку'
+    usage: '[игрок] [текст\nподтекст]'
+    title-sent: ''
+    subtitle-sent: ''
+    both-sent: ''
+    invalid-player: '&c%player не в сети или не существует.'
+    
+  command-amessage:
+    description: 'отправляет actionbar игроку'
+    usage: '[игрок] [текст]'
+    sent: ''
+    invalid-player: '&c%player не в сети или не существует.'
+
+  command-scoreboard:
+    description: 'Выключает и включает борд.'
+    usage: 'toggle'
+    toggled-on: '&aВы включили свой борд.'
+    toggled-off: '&cВы выключили свой борд.'

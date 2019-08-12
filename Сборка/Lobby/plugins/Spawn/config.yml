@@ -1,0 +1,14 @@
+Spawn:
+  x: 80.53481198334836
+  y: 12.0
+  z: -468.5656071820853
+  pitch: -3.3000188
+  yaw: -180.29492
+  world: world
+Worlds: []
+Prefix: '&f[&cLobby&f] '
+TpJoin: false
+Time:
+  enable: false
+  time: 5
+  message: секунд

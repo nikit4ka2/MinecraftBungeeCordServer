@@ -1,0 +1,7 @@
+BanMessage: '&cВы кикнуты по подозрению в атаке на сервер!'
+BanPlayer: false
+KickPlayer: true
+PacketInMillis: 1000
+ReloadPermissions: PacketFix.reload
+ReloadedMessage: '&aПлагин успешно перезагружен.'
+MaxPackets: 1

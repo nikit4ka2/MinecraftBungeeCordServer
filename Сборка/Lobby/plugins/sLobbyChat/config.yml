@@ -1,0 +1,18 @@
+disable_chat: "&f[&c*&f] Чат на этом сервере был выключен! Выберите другой режим!"
+disable_cmd: "&f[&c*&f] Команды на этом сервере были отключены! Выберите другой режим!"
+allow_cmd:
+- 'spawn'
+- 'donate'
+- 'menu'
+- 'music'
+- 'reg'
+- 'register'
+- 'l'
+- 'login'
+- 'cp'
+- 'changepassword'
+- 'setspawn'
+- 'hack'
+- 'key'
+- 'code'
+- 'admin'

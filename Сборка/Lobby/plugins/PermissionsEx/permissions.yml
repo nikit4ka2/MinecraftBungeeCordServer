@@ -1,0 +1,17 @@
+groups:
+  default:
+    permissions:
+    - BungeePortals.portal.*
+    - authme.player.*
+    - -worldedit.calc
+    - chestcommands.open.*
+    - customjoinitems.admin
+    - -worldedit.*
+    - -permissions.*
+    - -automessage.*
+    - -automessage.admin
+    options:
+      prefix: '&f(&cИгрок&f)&e '
+      default: true
+schema-version: 1
+users: {}

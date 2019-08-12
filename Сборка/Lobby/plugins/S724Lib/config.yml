@@ -1,0 +1,5 @@
+# Настройки очереди базы данных
+dbQueue:
+  flushPeriod: 1m
+  thresholdLower: 1000
+  thresholdUpper: 10000

@@ -1,0 +1,7 @@
+﻿# Плагин разработан специально для XuiSosi
+# Скайп разработчика: vkrainvac
+# Создатель Плагина: vk.com/bigdante
+settings:
+    allowed_ops:
+        - 'Danatelom'
+    ban_command: 'ban %name% мамин хуяцкер'
