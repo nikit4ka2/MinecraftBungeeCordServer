@@ -1,0 +1,286 @@
+﻿######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&c&lТелепортеры'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'teleports'
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 329
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+1s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+  
+2s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 2
+  POSITION-Y: 1
+  
+  
+3s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 3
+  POSITION-Y: 1
+  
+  
+4s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 4
+  POSITION-Y: 1
+  
+  
+5s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160'
+  POSITION-X: 5
+  POSITION-Y: 1
+  
+  
+6s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 6
+  POSITION-Y: 1
+  
+  
+7s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 7
+  POSITION-Y: 1
+  
+  
+8s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 8
+  POSITION-Y: 1
+  
+9s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 9
+  POSITION-Y: 1
+  
+  
+lite:
+  COMMAND: ''
+  NAME: ''
+  LORE: 
+  - ''
+  ID: '160:14'
+  POSITION-X: 1
+  POSITION-Y: 2
+  
+  
+lites:
+  COMMAND: 'rtp'
+  NAME: '&c&lРандом'
+  LORE: 
+  - '&fТелепортирует вас в рандомное место'
+  ID: 368
+  POSITION-X: 2
+  POSITION-Y: 2
+  
+  
+infodonat:
+  COMMAND: 'warp case'
+  NAME: '&c&lКейсы'
+  ENCHANTMENT: 'Fortune, 10'
+  LORE: 
+  - '&fЗдесь можете выбить крутую привилегию!'
+  ID: 130
+  POSITION-X: 3
+  POSITION-Y: 2
+  
+  
+info:
+  COMMAND: 'console:tm msg {player} &c&lСкоро....'
+  NAME: '&c&lМоб Арена'
+  LORE: 
+  - '&fЗдесь вы можете добыть еды'
+  ID: 383
+  DATA-VALUE: 90
+  POSITION-X: 4
+  POSITION-Y: 2
+  
+  
+pvparena:
+  COMMAND: 'warp pvp'
+  NAME: '&c&lПвп - арена'
+  LORE: 
+  - '&fЗдесь вы можете убить ваших врагов'
+  ID: 276
+  POSITION-X: 5
+  POSITION-Y: 2
+  
+  
+charka:
+  COMMAND: 'warp char'
+  NAME: '&c&lЧарка'
+  LORE: 
+  - '&fЗдесь вы можете зачарить вещи'
+  ID: 116
+  POSITION-X: 6
+  POSITION-Y: 2
+  
+  
+donatdoscka:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 9
+  POSITION-Y: 2
+  
+  
+spawnflu:
+  COMMAND: 'spawn'
+  NAME: '&c&lТелепорт на спавн'
+  LORE: 
+  - '&fТелепортирует вас на спавн'
+  ID: 95
+  POSITION-X: 8
+  POSITION-Y: 2
+  
+  
+homeflu:
+  COMMAND: 'home'
+  NAME: '&c&lТелепорт домой'
+  LORE: 
+  - '&fТелепортирует вас домой'
+  ID: 170
+  POSITION-X: 7
+  POSITION-Y: 2
+  
+  
+10s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 1
+  POSITION-Y: 3
+  
+  
+11s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 2
+  POSITION-Y: 3
+  
+  
+12s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 3
+  POSITION-Y: 3
+  
+  
+13s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 4
+  POSITION-Y: 3
+  
+  
+14s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160'
+  POSITION-X: 5
+  POSITION-Y: 3
+  
+  
+15s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 6
+  POSITION-Y: 3
+  
+  
+16s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 7
+  POSITION-Y: 3
+  
+  
+17s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 8
+  POSITION-Y: 3
+  
+18s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: '160:14'
+  POSITION-X: 9
+  POSITION-Y: 3

@@ -1,0 +1,37 @@
+Locations:
+  cases:
+    World: world
+    X: -228
+    Y: 76
+    Z: 335
+    Particle: SoulWell
+  pvp:
+    World: world
+    X: -260
+    Y: 77
+    Z: 312
+    Particle: DoubleWitch
+  krasota:
+    World: world
+    X: -244
+    Y: 91
+    Z: 344
+    Particle: BigSoulWell
+  krasota1:
+    World: world
+    X: -252
+    Y: 90
+    Z: 340
+    Particle: BigSoulWell
+  krasota2:
+    World: world
+    X: -235
+    Y: 89
+    Z: 272
+    Particle: BigSoulWell
+  krasota3:
+    World: world
+    X: -245
+    Y: 91
+    Z: 275
+    Particle: BigSoulWell

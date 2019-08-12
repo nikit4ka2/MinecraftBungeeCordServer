@@ -1,0 +1,540 @@
+menu-settings:
+  name: 'Декоративные блоки'
+  rows: 6
+  command: 'shopdecor'
+1:
+  COMMAND: 'console:give {player} 6 8'
+  PRICE: 100.0
+  NAME: '&aСаженец дуба'
+  LORE:
+    - '&f100 монеток за 8 шт.'
+  ID: '6, 8'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+2:
+  COMMAND: 'console:give {player} 6:1 8'
+  PRICE: 100.0
+  NAME: '&aСаженец ели'
+  LORE:
+    - '&f100 монеток за 8 шт.'
+  ID: '6:1, 8'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+3:
+  COMMAND: 'console:give {player} 6:2 8'
+  PRICE: 100.0
+  NAME: '&aСаженец березы'
+  LORE:
+    - '&f100 монеток за 8 шт.'
+  ID: '6:2, 8'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+4:
+  COMMAND: 'console:give {player} 6:3 8'
+  PRICE: 100.0
+  NAME: '&aСаженец тропического дерева'
+  LORE:
+    - '&f100 монеток за 8 шт.'
+  ID: '6:3, 8'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+5:
+  COMMAND: 'console:give {player} 6:4 8'
+  PRICE: 100.0
+  NAME: '&aСаженец акации'
+  LORE:
+    - '&f100 монеток за 8 шт.'
+  ID: '6:4, 8'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+6:
+  COMMAND: 'console:give {player} 6:5 8'
+  PRICE: 100.0
+  NAME: '&aСаженец темного дуба'
+  LORE:
+    - '&f100 монеток за 8 шт.'
+  ID: '6:5, 8'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+7:
+  COMMAND: 'console:give {player} 30 8'
+  PRICE: 500.0
+  NAME: '&aПаутина'
+  LORE:
+    - '&f500 монеток за 8 шт.'
+  ID: '30, 8'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
+8:
+  COMMAND: 'console:give {player} 31:2 16'
+  PRICE: 150.0
+  NAME: '&aПапоротник'
+  LORE:
+    - '&f150 монеток за 16 шт.'
+  ID: '31:2, 16'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
+9:
+  COMMAND: 'console:give {player} 32 16'
+  PRICE: 150.0
+  NAME: '&aМертвый куст'
+  LORE:
+    - '&f150 монеток за 16 шт.'
+  ID: '32, 16'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+10:
+  COMMAND: 'console:give {player} 37 16'
+  PRICE: 200.0
+  NAME: '&aОдуванчик'
+  LORE:
+    - '&f200 монеток за 16 шт.'
+  ID: '37, 16'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+11:
+  COMMAND: 'console:give {player} 38 16'
+  PRICE: 250.0
+  NAME: '&aМак'
+  LORE:
+    - '&f250 монеток за 16 шт.'
+  ID: '38, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+12:
+  COMMAND: 'console:give {player} 38:1 16'
+  PRICE: 300.0
+  NAME: '&aСиняя архидея'
+  LORE:
+    - '&f300 монеток за 16 шт.'
+  ID: '38:1, 16'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+13:
+  COMMAND: 'console:give {player} 38:2 16'
+  PRICE: 300.0
+  NAME: '&aЛук'
+  LORE:
+    - '&f300 монеток за 16 шт.'
+  ID: '38:2, 16'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+14:
+  COMMAND: 'console:give {player} 38:3 16'
+  PRICE: 300.0
+  NAME: '&aГолубой василек'
+  LORE:
+    - '&f300 монеток за 16 шт.'
+  ID: '38:3, 16'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+15:
+  COMMAND: 'console:give {player} 38:4 16'
+  PRICE: 300.0
+  NAME: '&aКрасный тюльпан'
+  LORE:
+    - '&f300 монеток за 16 шт.'
+  ID: '38:4, 16'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+16:
+  COMMAND: 'console:give {player} 38:5 16'
+  PRICE: 300.0
+  NAME: '&aОранжевый тюльпан'
+  LORE:
+    - '&f300 монеток за 16 шт.'
+  ID: '38:5, 16'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+17:
+  COMMAND: 'console:give {player} 38:6 16'
+  PRICE: 300.0
+  NAME: '&aБелый тюльпан'
+  LORE:
+    - '&f300 монеток за 16 шт.'
+  ID: '38:6, 16'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+18:
+  COMMAND: 'console:give {player} 38:7 16'
+  PRICE: 300.0
+  NAME: '&aОранжевый тюльпан'
+  LORE:
+    - '&f300 монеток за 16 шт.'
+  ID: '38:7, 16'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
+19:
+  COMMAND: 'console:give {player} 38:8 16'
+  PRICE: 300.0
+  NAME: '&aРомашка'
+  LORE:
+    - '&f300 монеток за 16 шт.'
+  ID: '38:8, 16'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 3
+20:
+  COMMAND: 'console:give {player} 39 16'
+  PRICE: 500.0
+  NAME: '&aПоберезовик'
+  LORE:
+    - '&f500 монеток за 16 шт.'
+  ID: '39, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+21:
+  COMMAND: 'console:give {player} 40 16'
+  PRICE: 700.0
+  NAME: '&aМухомор'
+  LORE:
+    - '&f700 монеток за 16 шт.'
+  ID: '40, 16'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3
+22:
+  COMMAND: 'console:give {player} 106 8'
+  PRICE: 300.0
+  NAME: '&aЛоза'
+  LORE:
+    - '&f300 монеток за 8 шт.'
+  ID: '106, 8'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+23:
+  COMMAND: 'console:give {player} 111 16'
+  PRICE: 300.0
+  NAME: '&aКувшинка'
+  LORE:
+    - '&f300 монеток за 16 шт.'
+  ID: '111, 16'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 3
+24:
+  COMMAND: 'console:give {player} 50 64'
+  PRICE: 2000.0
+  NAME: '&aФакел'
+  LORE:
+    - '&f2000 монеток за 1 стак'
+  ID: '50, 64'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 3
+25:
+  COMMAND: 'console:give {player} 89 32'
+  PRICE: 3000.0
+  NAME: '&aСветящийся камень'
+  LORE:
+    - '&f3000 монеток за 32 шт.'
+  ID: '89, 32'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 3
+26:
+  COMMAND: 'console:give {player} 91 8'
+  PRICE: 500.0
+  NAME: '&aСветильник Джека'
+  LORE:
+    - '&f500 монеток за 8 шт.'
+  ID: '91, 8'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 3
+27:
+  COMMAND: 'console:give {player} 169 32'
+  PRICE: 10000.0
+  NAME: '&aЛампа №1'
+  LORE:
+    - '&f10000 монеток за 32 шт.'
+  ID: '169, 32'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 3
+28:
+  COMMAND: 'console:give {player} 123 32'
+  PRICE: 6000.0
+  NAME: '&aЛампа №2'
+  LORE:
+    - '&f6000 монеток за 32 шт.'
+  ID: '123, 32'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 4
+29:
+  COMMAND: 'console:give {player} 54 16'
+  PRICE: 200.0
+  NAME: '&aСундук'
+  LORE:
+    - '&f200 монеток за 16 шт.'
+  ID: '54, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 4
+30:
+  COMMAND: 'console:give {player} 58 1'
+  PRICE: 70.0
+  NAME: '&aВерстак'
+  LORE:
+    - '&f200 монеток за 1 шт.'
+  ID: '58, 1'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 4
+31:
+  COMMAND: 'console:give {player} 61 4'
+  PRICE: 200.0
+  NAME: '&aПечь'
+  LORE:
+    - '&f200 монеток за 4 шт.'
+  ID: '61, 4'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 4
+32:
+  COMMAND: 'console:give {player} 65 32'
+  PRICE: 400.0
+  NAME: '&aЛестница'
+  LORE:
+    - '&f400 монеток за 32 шт.'
+  ID: '65, 32'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 4
+33:
+  COMMAND: 'console:give {player} 81 8'
+  PRICE: 700.0
+  NAME: '&aКактус'
+  LORE:
+    - '&f700 монеток за 8 шт.'
+  ID: '81, 8'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 4
+34:
+  COMMAND: 'console:give {player} 84 1'
+  PRICE: 2000.0
+  NAME: '&aПроигрыватель'
+  LORE:
+    - '&f2000 монеток за 1 шт.'
+  ID: '84, 1'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 4
+35:
+  COMMAND: 'console:give {player} 113 32'
+  PRICE: 4000.0
+  NAME: '&aАдский забор'
+  LORE:
+    - '&f4000 монеток за 32 шт.'
+  ID: '113, 32'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 4
+36:
+  COMMAND: 'console:give {player} 85 32'
+  PRICE: 400.0
+  NAME: '&aДубовый забор'
+  LORE:
+    - '&f400 монеток за 32 шт.'
+  ID: '85, 32'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 4
+37:
+  COMMAND: 'console:give {player} 188 32'
+  PRICE: 400.0
+  NAME: '&aЕловый забор'
+  LORE:
+    - '&f400 монеток за 32 шт.'
+  ID: '188, 32'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 5
+38:
+  COMMAND: 'console:give {player} 189 32'
+  PRICE: 400.0
+  NAME: '&aБерезовый забор'
+  LORE:
+    - '&f400 монеток за 32 шт.'
+  ID: '189, 32'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 5
+39:
+  COMMAND: 'console:give {player} 190 32'
+  PRICE: 400.0
+  NAME: '&aЗабор из тропического дерева'
+  LORE:
+    - '&f400 монеток за 32 шт.'
+  ID: '190, 32'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 5
+40:
+  COMMAND: 'console:give {player} 191 32'
+  PRICE: 400.0
+  NAME: '&aЗабор из темного дуба'
+  LORE:
+    - '&f400 монеток за 32 шт.'
+  ID: '191, 32'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 5
+41:
+  COMMAND: 'console:give {player} 192 32'
+  PRICE: 400.0
+  NAME: '&aЗабор из акации'
+  LORE:
+    - '&f400 монеток за 32 шт.'
+  ID: '192, 32'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 5
+42:
+  COMMAND: 'console:give {player} 116 1'
+  PRICE: 15000.0
+  NAME: '&aСтол зачарования'
+  LORE:
+    - '&f15000 монеток за 1 шт.'
+  ID: '116, 1'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 5
+43:
+  COMMAND: 'console:give {player} 130 2'
+  PRICE: 15000.0
+  NAME: '&aСундук эндера'
+  LORE:
+    - '&f15000 монеток за 2 шт.'
+  ID: '130, 2'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 5
+44:
+  COMMAND: 'console:give {player} 145 2'
+  PRICE: 3000.0
+  NAME: '&aНаковальня'
+  LORE:
+    - '&f3000 монеток за 2 шт.'
+  ID: '145, 2'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 5
+45:
+  COMMAND: 'console:give {player} 146 8'
+  PRICE: 200.0
+  NAME: '&aСундук-ловушка'
+  LORE:
+    - '&f200 монеток за 8 шт.'
+  ID: '146, 8'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 5
+46:
+  COMMAND: 'console:give {player} 389 8'
+  PRICE: 200.0
+  NAME: '&aРамка'
+  LORE:
+    - '&f300 монеток за 8 шт.'
+  ID: '389, 8'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 6
+47:
+  COMMAND: 'console:give {player} 175 16'
+  PRICE: 500.0
+  NAME: '&aПодсолнух'
+  LORE:
+    - '&f500 монеток за 16 шт.'
+  ID: '175, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 6
+48:
+  COMMAND: 'console:give {player} 175:1 16'
+  PRICE: 500.0
+  NAME: '&aСирень'
+  LORE:
+    - '&f500 монеток за 16 шт.'
+  ID: '175:1, 16'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 6
+49:
+  COMMAND: 'console:give {player} 175:4 16'
+  PRICE: 700.0
+  NAME: '&aРоза'
+  LORE:
+    - '&f700 монеток за 16 шт.'
+  ID: '175:4, 16'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 6
+50:
+  COMMAND: 'console:give {player} 175:5 16'
+  PRICE: 650.0
+  NAME: '&aПион'
+  LORE:
+    - '&f650 монеток за 16 шт.'
+  ID: '175:5, 16'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 6
+51:
+  COMMAND: 'console:give {player} 321 4'
+  PRICE: 300.0
+  NAME: '&aКартина'
+  LORE:
+    - '&f300 монеток за 4 шт.'
+  ID: '321, 4'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 6
+52:
+  COMMAND: 'console:give {player} 425:15 4'
+  PRICE: 500.0
+  NAME: '&aБелое знамя'
+  LORE:
+    - '&f500 монеток за 4 шт.'
+  ID: '425:15, 4'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 6
+53:
+  COMMAND: 'console:give {player} 355 2'
+  PRICE: 700.0
+  NAME: '&aКровать'
+  LORE:
+    - '&f700 монеток за 2 шт.'
+  ID: '355, 2'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 6
+54:
+  COMMAND: 'open:shop.yml'
+  NAME: '&cНазад'
+  ID: '76'
+  POSITION-X: 9
+  POSITION-Y: 6

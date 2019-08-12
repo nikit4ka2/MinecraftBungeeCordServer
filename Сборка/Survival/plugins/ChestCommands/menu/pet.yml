@@ -1,0 +1,323 @@
+menu-settings:
+  name: Питомцы
+  rows: 6
+  command: pet;petadmin;pets
+  auto-refresh: 10
+  open-action: ''
+  
+'1':
+  COMMAND: 'pet chicken'
+  ID: '383:93'
+  NAME: '&fПитомец: &cКурица'
+  LORE:
+  - ''
+  - '&eДоступно от &b(Лорд)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: false
+  
+'2':
+  COMMAND: 'pet cow'
+  ID: '383:92'
+  NAME: '&fПитомец: &cКорова'
+  LORE:
+  - ''
+  - '&eДоступно от &b(Лорд)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: false
+  
+'3':
+  COMMAND: 'pet sheep'
+  ID: '383:91'
+  NAME: '&fПитомец: &cОвца'
+  LORE:
+  - ''
+  - '&eДоступно от &b(Лорд)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: false
+ 
+'4':
+  COMMAND: 'pet ocelot'
+  ID: '383:98'
+  NAME: '&fПитомец: &cОцелот'
+  LORE:
+  - ''
+  - '&eДоступно от &a(Легенда)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: false
+  
+'5':
+  COMMAND: 'pet bat'
+  ID: '383:65'
+  NAME: '&fПитомец: &cЛетучая Мышь'
+  LORE:
+  - ''
+  - '&eДоступно от &a(Легенда)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: false
+  
+'6':
+  COMMAND: 'pet villager'
+  ID: '383:120'
+  NAME: '&fПитомец: &cЖитель'
+  LORE:
+  - ''
+  - '&eДоступно от &a(Легенда)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: false
+  
+'7':
+  COMMAND: 'pet wolf'
+  ID: '383:95'
+  NAME: '&fПитомец: &cВолк'
+  LORE:
+  - ''
+  - '&eДоступно от &c(Админ)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: false
+  
+'8':
+  COMMAND: 'pet zombie'
+  ID: '383:54'
+  NAME: '&fПитомец: &cЗомби'
+  LORE:
+  - ''
+  - '&eДоступно от &c(Админ)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: false
+  
+'9':
+  COMMAND: 'pet skeleton'
+  ID: '383:51'
+  NAME: '&fПитомец: &cСкелет'
+  LORE:
+  - ''
+  - '&eДоступно от &c(Админ)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: false
+  
+'10':
+  COMMAND: 'pet pigzombie'
+  ID: '383:57'
+  NAME: '&fПитомец: &cСвино-Зомби'
+  LORE:
+  - ''
+  - '&eДоступно от &9(Титан)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: false 
+  
+'11':
+  COMMAND: 'pet spider'
+  ID: '383:52'
+  NAME: '&fПитомец: &cПаук'
+  LORE:
+  - ''
+  - '&eДоступно от &9(Титан)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: false 
+  
+'12':
+  COMMAND: 'pet horse'
+  ID: '383:100'
+  NAME: '&fПитомец: &cЛошадь'
+  LORE:
+  - ''
+  - '&eДоступно от &9(Титан)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: false 
+  
+'13':
+  COMMAND: 'pet enderman'
+  ID: '383:58'
+  NAME: '&fПитомец: &cЭндермен'
+  LORE:
+  - ''
+  - '&eДоступно от &a(Анти-Грифер)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: false 
+  
+'14':
+  COMMAND: 'pet guardian'
+  ID: '383:68'
+  NAME: '&fПитомец: &cСтраж'
+  LORE:
+  - ''
+  - '&eДоступно от &a(Анти-Грифер)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: false 
+  
+'15':
+  COMMAND: 'pet cavespider'
+  ID: '383:59'
+  NAME: '&fПитомец: &cПещерный Паук'
+  LORE:
+  - ''
+  - '&eДоступно от &a(Анти-Грифер)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: false 
+  
+'16':
+  COMMAND: 'pet rabbit'
+  ID: '383:101'
+  NAME: '&fПитомец: &cКролик'
+  LORE:
+  - ''
+  - '&eДоступно от &6(Главарь)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 3
+  POSITION-Y: 4
+  KEEP-OPEN: false 
+  
+'17':
+  COMMAND: 'pet creeper'
+  ID: '383:50'
+  NAME: '&fПитомец: &cКрипер'
+  LORE:
+  - ''
+  - '&eДоступно от &6(Главарь)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: false 
+  
+'18':
+  COMMAND: 'pet slime'
+  ID: '383:55'
+  NAME: '&fПитомец: &cСлизень'
+  LORE:
+  - ''
+  - '&eДоступно от &6(Главарь)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: false 
+  
+'19':
+  COMMAND: 'pet blaze'
+  ID: '383:61'
+  NAME: '&fПитомец: &cИфрит'
+  LORE:
+  - ''
+  - '&eДоступно от &c(Владелец)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 6
+  POSITION-Y: 4
+  KEEP-OPEN: false 
+  
+'20':
+  COMMAND: 'pet ghast'
+  ID: '383:56'
+  NAME: '&fПитомец: &cГаст'
+  LORE:
+  - ''
+  - '&eДоступно от &c(Владелец)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 7
+  POSITION-Y: 4
+  KEEP-OPEN: false 
+  
+'21':
+  COMMAND: 'pet enderdragon'
+  ID: '381'
+  NAME: '&fПитомец: &cЭндер Дракон'
+  LORE:
+  - ''
+  - '&eДоступно от &c(Владелец)'
+  - ''
+  - '&a> &fНажми, чтобы получить питомца.'
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: false
+
+'22':
+  COMMAND: 'pet name'
+  ID: '421'
+  NAME: '&6Переименовать питомца'
+  LORE:
+  - ''
+  - '&a> &fНажми, чтобы переименовать питомца.'
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: false
+
+'23':
+  COMMAND: 'pet remove'
+  ID: '331'
+  NAME: '&6Убрать питомца'
+  LORE:
+  - ''
+  - '&a> &fНажми, чтобы убрать питомца.'
+  POSITION-X: 4
+  POSITION-Y: 6
+  KEEP-OPEN: false
+  
+'24':
+  COMMAND: 'pet ride'
+  ID: '419'
+  NAME: '&6Сесть на питомца'
+  LORE:
+  - ''
+  - '&a> &fНажми, чтобы сесть на питомца.'
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: false
+  
+'25':
+  COMMAND: 'pet hat'
+  ID: '310'
+  NAME: '&6Одеть на голову'
+  LORE:
+  - ''
+  - '&a> &fНажми, чтобы одеть на голову питомца.'
+  POSITION-X: 6
+  POSITION-Y: 6
+  KEEP-OPEN: false

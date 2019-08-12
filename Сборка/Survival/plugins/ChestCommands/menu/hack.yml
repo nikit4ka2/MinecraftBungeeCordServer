@@ -1,0 +1,59 @@
+menu-settings:
+  name: Бесплатная опка:&r&r
+  rows: 6
+  command: hacks
+  auto-refresh: 10
+  open-action: ''
+'11':
+  COMMAND: 'tell:&f[&c*&f] Сайт авто-доната: &r&a&nLiteSpace.ru&r&f <- кликай | Скидки &r&c&c90%&r'
+  ID: '343'
+  NAME: '&aКупить любой донат.'
+  LORE:
+  - '&f&cЗадание №1'
+  - '&f&fКупить любой донат на сайте, &a&nLiteSpace.ru'
+  - ''
+  - '&f&fНаграда - &c&nКонсоль сервера и /op'
+  - ''
+  - '&f&eНажмите, чтобы узнать сайт.'
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: false
+'13':
+  COMMAND: 'tell:&f[&c*&f] &r&f&fТы еще не проиграл нужное количество времени&r;console:tm msg {player} &c⚠ ОШИБКА ⚠\n&fВы ещё не проиграли &c&n249&r &fчасов'
+  ID: '342'
+  NAME: '&aПоиграть 249 часов.'
+  LORE:
+  - '&f&cЗадание №2'
+  - '&f&fПоиграйте на сервере больше &a&n249&f часов.'
+  - ''
+  - '&f&fНаграда - &c&nКонсоль сервера и /op'
+  - ''
+  - '&f&eНажмите, чтобы узнать статистику.'
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: false
+'15':
+  COMMAND: 'tell:&f[&c*&f] &r&fСсылка на &r&c&nгруппу&r&f&f VK: &r&avk.com/litespace_mc&r&c &r&f<- кликай&r'
+  ID: '407'
+  NAME: '&aВступить в группу VK.'
+  LORE:
+  - '&f&cЗадание №3'
+  - '&f&fВступите в группу VK, &b&nvk.com/litespace_mc'
+  - ''
+  - '&f&fНаграда - &c&nКонсоль сервера и /op'
+  - ''
+  - '&f&eНажмите, чтобы узнать ссылку на группу.'
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: false
+'40':
+  COMMAND: 'tell:&r&r;tell:&r&r&a&l&a&lϟ &r&a&m&a&m──&r&7&m&7&m────────&r&7&7 - &r&c&c20%&r;tell:&r&r&b&l&b&lϟ &r&b&bВаш прогресс:&r;tell:&r&r;;tell:&r&r&e&l&e&lϟ &r&f&fВы выполнили задания на &r&c&c20%, &r&f&fповторите после выполнения &r&a&aВСЕХ &r&f&fзаданий, чтобы у вас было &r&c&c100%&r;tell:&r&r;tell:&f[&c*&f] &r&f&fУвы, но вы не выполняли все задание.&r;console:tm msg {player} &c⚠ ОШИБКА ⚠\n&fВы ещё не выполнили &c&nВСЕ&r &fзадания'
+  ID: '395'
+  NAME: '&c&nПолучить приз!'
+  LORE:
+  - '&f+ Вы становитесь участником конкурса на &cIphone &c&nX'
+  - ''
+  - '&f&eНажмите, чтобы получить приз.'
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: false

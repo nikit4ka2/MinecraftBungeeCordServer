@@ -1,0 +1,42 @@
+default: 5
+bans:
+  default: 1
+  donor: 2
+  gamer: 2
+  lord: 3
+  legend: 4
+  admin: 60
+  titan: 100
+  anti: 150
+  glav: 200
+  lite: 250
+  helper: 500
+  moder: 500
+  owner: 1000
+default: 1
+donor: 1
+gamer: 1
+lord: 1
+legend: 1
+admin: 1
+titan: 1
+anti: 1
+glav: 1
+lite: 1
+helper: 1
+moder: 1
+owner: 1
+mute:
+  default: 1
+  donor: 2
+  gamer: 2
+  lord: 3
+  legend: 4
+  admin: 60
+  titan: 80
+  anti: 100
+  glav: 130
+  lite: 160
+  helper: 300
+  moder: 300
+  owner: 500

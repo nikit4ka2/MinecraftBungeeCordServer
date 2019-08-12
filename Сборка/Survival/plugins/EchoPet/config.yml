@@ -1,0 +1,1003 @@
+# +----------------------------------------------------+
+# <                LitePet by Danatelom                >
+# <               ---------------------                >
+# <            Configuration for LitePet 2             >
+# <   See the EchoPet Wiki before editing this file    >
+# +----------------------------------------------------+
+
+commandString: pet
+
+# If set to true, EchoPet will automatically download and install
+# new updates.
+autoUpdate: false
+
+# If -autoUpdate- is set to false, EchoPet will notify certain
+# players of new updates if they are available (if set to true).
+checkForUpdates: true
+
+# If true, Pets saved to a MySQL Database will override
+# those saved to a file (Default and AutoSave Pets)
+sql:
+  overrideFile: true
+  use: false
+  host: localhost
+  port: 3306
+  database: EchoPet
+  username: none
+  password: none
+petNames:
+  My Pet: allow
+petNamesRegexMatching: true
+petNamesRegex:
+- .*administrator.*: deny
+stripDiacriticsFromNames: true
+
+# Connects to Mojang session servers to attempt fto fix huma skins'
+enableHumanSkinFixing: true
+
+# Auto-load pets from last session
+loadSavedPets: true
+
+# When true, if -loadSavedPets-
+# is set to false, Pets will
+# still be loaded when
+# players switch worlds
+multiworldLoadOverride: true
+
+# Send message that pet was loaded if -loadSavedPets- is true
+sendLoadMessage: true
+
+# For all data values forced, EchoPet will notify the player
+# (if set to true).
+sendForceMessage: true
+worlds:
+  world: true
+  enableByDefault: true
+worldguard:
+  regions:
+    litepet: true
+    allowByDefault: true
+  regionEnterCheck: true
+petSelector:
+  allowDrop: true
+  showDisabledPets: true
+  giveOnJoin:
+    enable: false
+    usePerm: false
+    perm: litepet.selector.join
+    slot: 9
+  clearInvOnJoin: false
+  item:
+    name: '&cПитомцы'
+    lore: '&fПравый клик открыть'
+    materialId: 352
+    materialData: 0
+  menu:
+    slots: 45
+    title: Питомцы
+    slot-1:
+      command: pet bat
+      petType: BAT
+      materialId: 383
+      materialData: 65
+      name: Летучая мышь
+      lore: []
+    slot-2:
+      command: pet blaze
+      petType: BLAZE
+      materialId: 383
+      materialData: 61
+      name: Блейзер
+      lore: []
+    slot-3:
+      command: pet cavespider
+      petType: CAVESPIDER
+      materialId: 383
+      materialData: 59
+      name: Песчанный паук
+      lore: []
+    slot-4:
+      command: pet chicken
+      petType: CHICKEN
+      materialId: 383
+      materialData: 93
+      name: Курица
+      lore: []
+    slot-5:
+      command: pet cow
+      petType: COW
+      materialId: 383
+      materialData: 92
+      name: Корова
+      lore: []
+    slot-6:
+      command: pet creeper
+      petType: CREEPER
+      materialId: 383
+      materialData: 50
+      name: Крипер
+      lore: []
+    slot-7:
+      command: pet enderdragon
+      petType: ENDERDRAGON
+      materialId: 122
+      materialData: 0
+      name: Дракон
+      lore: []
+    slot-8:
+      command: pet enderman
+      petType: ENDERMAN
+      materialId: 383
+      materialData: 58
+      name: Эндермен
+      lore: []
+    slot-9:
+      command: pet endermite
+      petType: ENDERMITE
+      materialId: 383
+      materialData: 67
+      name: Эндер
+      lore: []
+    slot-10:
+      command: pet ghast
+      petType: GHAST
+      materialId: 383
+      materialData: 56
+      name: Гаст
+      lore: []
+    slot-11:
+      command: pet giant
+      petType: GIANT
+      materialId: 383
+      materialData: 54
+      name: Гигант
+      lore: []
+    slot-12:
+      command: pet guardian
+      petType: GUARDIAN
+      materialId: 383
+      materialData: 68
+      name: Защитник
+      lore: []
+    slot-13:
+      command: pet horse
+      petType: HORSE
+      materialId: 383
+      materialData: 100
+      name: Лошадь
+      lore: []
+    slot-14:
+      command: pet human
+      petType: HUMAN
+      materialId: 397
+      materialData: 3
+      name: Питомец
+      lore: []
+    slot-15:
+      command: pet irongolem
+      petType: IRONGOLEM
+      materialId: 86
+      materialData: 0
+      name: Железный человек
+      lore: []
+    slot-16:
+      command: pet magmacube
+      petType: MAGMACUBE
+      materialId: 383
+      materialData: 62
+      name: магма
+      lore: []
+    slot-17:
+      command: pet mushroomcow
+      petType: MUSHROOMCOW
+      materialId: 383
+      materialData: 96
+      name: мухомор
+      lore: []
+    slot-18:
+      command: pet ocelot
+      petType: OCELOT
+      materialId: 383
+      materialData: 98
+      name: оцелот
+      lore: []
+    slot-19:
+      command: pet pig
+      petType: PIG
+      materialId: 383
+      materialData: 90
+      name: Свинья
+      lore: []
+    slot-20:
+      command: pet pigzombie
+      petType: PIGZOMBIE
+      materialId: 383
+      materialData: 57
+      name: СвиноЗомби
+      lore: []
+    slot-21:
+      command: pet rabbit
+      petType: RABBIT
+      materialId: 383
+      materialData: 101
+      name: Кролик
+      lore: []
+    slot-22:
+      command: pet sheep
+      petType: SHEEP
+      materialId: 383
+      materialData: 91
+      name: Овца
+      lore: []
+    slot-23:
+      command: pet silverfish
+      petType: SILVERFISH
+      materialId: 383
+      materialData: 60
+      name: Рыба
+      lore: []
+    slot-24:
+      command: pet skeleton
+      petType: SKELETON
+      materialId: 383
+      materialData: 51
+      name: скелет
+      lore: []
+    slot-25:
+      command: pet slime
+      petType: SLIME
+      materialId: 383
+      materialData: 55
+      name: Слайм
+      lore: []
+    slot-26:
+      command: pet snowman
+      petType: SNOWMAN
+      materialId: 332
+      materialData: 0
+      name: Снежный человек
+      lore: []
+    slot-27:
+      command: pet spider
+      petType: SPIDER
+      materialId: 383
+      materialData: 52
+      name: Паук
+      lore: []
+    slot-28:
+      command: pet squid
+      petType: SQUID
+      materialId: 383
+      materialData: 94
+      name: Кто-то
+      lore: []
+    slot-29:
+      command: pet villager
+      petType: VILLAGER
+      materialId: 383
+      materialData: 120
+      name: Житель
+      lore: []
+    slot-30:
+      command: pet witch
+      petType: WITCH
+      materialId: 383
+      materialData: 66
+      name: Witch Pet
+      lore: []
+    slot-31:
+      command: pet wither
+      petType: WITHER
+      materialId: 399
+      materialData: 0
+      name: визер
+      lore: []
+    slot-32:
+      command: pet wolf
+      petType: WOLF
+      materialId: 383
+      materialData: 95
+      name: волк
+      lore: []
+    slot-33:
+      command: pet zombie
+      petType: ZOMBIE
+      materialId: 383
+      materialData: 54
+      name: зомби
+      lore: []
+    slot-45:
+      command: pet select
+      petType: ''
+      materialId: 340
+      materialData: 0
+      name: '&eЗакрыть'
+      lore: []
+    slot-43:
+      command: pet toggle
+      petType: ''
+      materialId: 352
+      materialData: 0
+      name: '&eСкрыть'
+      lore: []
+    slot-42:
+      command: pet call
+      petType: ''
+      materialId: 368
+      materialData: 0
+      name: '&eТелепортировать питомца'
+      lore: []
+    slot-40:
+      command: pet hat
+      petType: ''
+      materialId: 306
+      materialData: 0
+      name: '&eОдеть на голову питомца'
+      lore: []
+    slot-39:
+      command: pet ride
+      petType: ''
+      materialId: 398
+      materialData: 0
+      name: '&eСесть на питомца'
+      lore: []
+    slot-38:
+      command: pet name
+      petType: ''
+      materialId: 421
+      materialData: 0
+      name: '&fназвать питомца'
+      lore: []
+    slot-37:
+      command: pet menu
+      petType: ''
+      materialId: 58
+      materialData: 0
+      name: '&fОткрыть'
+      lore: []
+pets:
+  blaze:
+    enable: true
+    tagVisible: true
+    defaultName: Огненный
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: true
+    allow:
+      riders: true
+      fire: true
+    force:
+      fire: false
+  cavespider:
+    enable: true
+    tagVisible: true
+    defaultName: Песчанный паук
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+  creeper:
+    enable: true
+    tagVisible: true
+    defaultName: Крипер
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      powered: true
+    force:
+      powered: false
+  enderdragon:
+    enable: false
+    tagVisible: true
+    defaultName: Дракон
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+  enderman:
+    enable: true
+    tagVisible: true
+    defaultName: Эндермен
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      screaming: true
+    force:
+      screaming: false
+  endermite:
+    enable: true
+    tagVisible: true
+    defaultName: Эндер
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+  ghast:
+    enable: false
+    tagVisible: true
+    defaultName: Гаст
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: true
+    allow:
+      riders: true
+  giant:
+    enable: true
+    tagVisible: true
+    defaultName: Гигант
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+  guardian:
+    enable: true
+    tagVisible: true
+    defaultName: Защитник
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      elder: true
+    force:
+      elder: false
+  magmacube:
+    enable: true
+    tagVisible: true
+    defaultName: МагмаКуб
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      large: true
+      medium: true
+      small: true
+    force:
+      large: false
+      medium: false
+      small: false
+  pigzombie:
+    enable: true
+    tagVisible: true
+    defaultName: СвиноЗомби
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      baby: true
+    force:
+      baby: false
+  silverfish:
+    enable: true
+    tagVisible: true
+    defaultName: Рыба
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+  skeleton:
+    enable: true
+    tagVisible: true
+    defaultName: Скелет
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      wither: true
+    force:
+      wither: false
+  slime:
+    enable: true
+    tagVisible: true
+    defaultName: Слайм
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      large: true
+      medium: true
+      small: true
+    force:
+      large: false
+      medium: false
+      small: false
+  spider:
+    enable: true
+    tagVisible: true
+    defaultName: Паук
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+  witch:
+    enable: true
+    tagVisible: true
+    defaultName: Ведьма
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+  wither:
+    enable: false
+    tagVisible: true
+    defaultName: Визер
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: true
+    allow:
+      riders: true
+      shield: true
+    force:
+      shield: false
+  zombie:
+    enable: true
+    tagVisible: true
+    defaultName: Зомби
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      baby: true
+      villager: true
+    force:
+      baby: false
+      villager: false
+  bat:
+    enable: true
+    tagVisible: true
+    defaultName: Летучая Мышь
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: true
+    allow:
+      riders: true
+  chicken:
+    enable: true
+    tagVisible: true
+    defaultName: Курица
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      baby: true
+    force:
+      baby: false
+  cow:
+    enable: true
+    tagVisible: true
+    defaultName: Корова
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      baby: true
+    force:
+      baby: false
+  horse:
+    enable: true
+    tagVisible: true
+    defaultName: Лошадь
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      baby: true
+      black: true
+      blackSpot: true
+      brown: true
+      chested: true
+      chestnut: true
+      creamy: true
+      darkbrown: true
+      diamond: true
+      donkey: true
+      gray: true
+      gold: true
+      iron: true
+      mule: true
+      noarmour: true
+      noMarking: true
+      normal: true
+      saddle: true
+      skeleton: true
+      whiteSocks: true
+      whitePatch: true
+      whiteSpot: true
+      white: true
+      zombie: true
+    force:
+      baby: false
+      black: false
+      blackSpot: false
+      brown: false
+      chested: false
+      chestnut: false
+      creamy: false
+      darkbrown: false
+      diamond: false
+      donkey: false
+      gray: false
+      gold: false
+      iron: false
+      mule: false
+      noarmour: false
+      noMarking: false
+      normal: false
+      saddle: false
+      skeleton: false
+      whiteSocks: false
+      whitePatch: false
+      whiteSpot: false
+      white: false
+      zombie: false
+  irongolem:
+    enable: true
+    tagVisible: true
+    defaultName: Железный Голем
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+  mushroomcow:
+    enable: true
+    tagVisible: true
+    defaultName: Мухоморная Корова
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      baby: true
+    force:
+      baby: false
+  ocelot:
+    enable: true
+    tagVisible: true
+    defaultName: Оцелот
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      baby: true
+      black: true
+      red: true
+      siamese: true
+      wild: true
+    force:
+      baby: false
+      black: false
+      red: false
+      siamese: false
+      wild: false
+  pig:
+    enable: true
+    tagVisible: true
+    defaultName: Свинья
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      baby: true
+      saddle: true
+    force:
+      baby: false
+      saddle: false
+  rabbit:
+    enable: true
+    tagVisible: true
+    defaultName: Кролик
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      baby: true
+      black: true
+      blackandwhite: true
+      brown: true
+      killerbunny: true
+      saltandpepper: true
+      white: true
+    force:
+      baby: false
+      black: false
+      blackandwhite: false
+      brown: false
+      killerbunny: false
+      saltandpepper: false
+      white: false
+  sheep:
+    enable: true
+    tagVisible: true
+    defaultName: Овца
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      baby: true
+      black: true
+      blue: true
+      brown: true
+      cyan: true
+      gray: true
+      green: true
+      lightBlue: true
+      lime: true
+      magenta: true
+      orange: true
+      pink: true
+      purple: true
+      red: true
+      sheared: true
+      silver: true
+      white: true
+      yellow: true
+    force:
+      baby: false
+      black: false
+      blue: false
+      brown: false
+      cyan: false
+      gray: false
+      green: false
+      lightBlue: false
+      lime: false
+      magenta: false
+      orange: false
+      pink: false
+      purple: false
+      red: false
+      sheared: false
+      silver: false
+      white: false
+      yellow: false
+  snowman:
+    enable: true
+    tagVisible: true
+    defaultName: Снежный Человек
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+  squid:
+    enable: true
+    tagVisible: true
+    defaultName: Кальмар
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: true
+    allow:
+      riders: true
+  villager:
+    enable: true
+    tagVisible: true
+    defaultName: Villager Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      baby: true
+      blacksmith: true
+      butcher: true
+      farmer: true
+      librarian: true
+      priest: true
+    force:
+      baby: false
+      blacksmith: false
+      butcher: false
+      farmer: false
+      librarian: false
+      priest: false
+  wolf:
+    enable: true
+    tagVisible: true
+    defaultName: Волк
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+      angry: true
+      baby: true
+      black: true
+      blue: true
+      brown: true
+      cyan: true
+      gray: true
+      green: true
+      lightBlue: true
+      lime: true
+      magenta: true
+      orange: true
+      pink: true
+      purple: true
+      red: true
+      silver: true
+      tamed: true
+      white: true
+      yellow: true
+    force:
+      angry: false
+      baby: false
+      black: false
+      blue: false
+      brown: false
+      cyan: false
+      gray: false
+      green: false
+      lightBlue: false
+      lime: false
+      magenta: false
+      orange: false
+      pink: false
+      purple: false
+      red: false
+      silver: false
+      tamed: false
+      white: false
+      yellow: false
+  human:
+    enable: true
+    tagVisible: true
+    defaultName: Питомец игрока &c%player%
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 4
+    teleportDistance: 40
+    rideSpeed: 0.2
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      riders: true
+convertDataFileToUniqueId: false

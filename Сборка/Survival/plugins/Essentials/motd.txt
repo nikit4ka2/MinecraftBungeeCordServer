@@ -1,0 +1,9 @@
+ &e&m             &e&m              &e&m              &e&m             
+ 
+    &fДобро пожаловать на сервер &a•&a●&a● &c&lLite&f&lSpace &a●&a●&a•
+              &fСейчас онлайн &c{ONLINE}&f/&c150 &fигроков
+      &fЗдесь можно купить донат - &cLiteSpace.ru
+           &fПосмотри список команд - &d/menu
+                  &fТвой баланс - &a{BALANCE}
+                  
+ &e&m             &e&m              &e&m              &e&m              

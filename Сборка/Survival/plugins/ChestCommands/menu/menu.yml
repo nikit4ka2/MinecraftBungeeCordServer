@@ -1,0 +1,329 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: 'Игровое меню:'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'menu'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 399
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+spawn:
+  COMMAND: 'spawn; sound: click, 3.0, 3.0'
+  NAME: '&aСпавн'
+  LORE:
+    - '&7Разное'
+    - ''
+    - ' &fХотите телепортироваться'
+    - ' &fна спавн? Кликните сюда!'
+    - ''
+    - '&a> Нажмите, чтобы телепортироваться' 
+  ID: 47
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+
+donate:
+  COMMAND: 'open:donate.yml; sound: click, 3.0, 3.0'
+  NAME: '&aПривилегии'
+  LORE:
+    - '&7Донат'
+    - ''
+    - ' &fВсегда хотели отличатся'
+    - ' &fот других игроков?'
+    - ' &fБлагодаря Привилегиям'
+    - ' &fВы сможете быть гораздо'
+    - ' &fлучше других!'
+    - ''
+    - '&a> Нажмите, чтобы узнать о привилегиях' 
+  ID: 388
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 3
+
+warps:
+  COMMAND: 'teleports; sound: click, 3.0, 3.0'
+  NAME: '&aВарпы'
+  LORE:
+    - '&7Разное'
+    - ''
+    - ' &fНа сервере есть'
+    - ' &fспециальный точки,'
+    - ' &fна которые можно'
+    - ' &fтелепортироваться'
+    - ''
+    - ' &fДля того, чтобы'
+    - ' &fтелепортироваться на'
+    - ' &fварп, Вам нужно написать'
+    - ' &fкоманду &e/warp (название варпа)'
+    - ''
+    - '&a> &aНажмите, чтобы увидеть список варпов' 
+  ID: 378
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3
+
+marry:
+  COMMAND: 'marry; sound: click, 3.0, 3.0'
+  NAME: '&aСвадьбы'
+  LORE:
+    - '&7Развлечение'
+    - ''
+    - ' &fИграешь с девушкой'
+    - ' &fна сервере? Тогда'
+    - ' &fне помешало бы'
+    - ' &fпожениться!'
+    - ''
+    - '&a> &aНажмите, чтобы о свадьбах' 
+  ID: '38:4'
+  KEEP-OPEN: false
+  POSITION-X: 3
+  POSITION-Y: 5
+
+clans:
+  COMMAND: 'clan; sound: click, 3.0, 3.0'
+  NAME: '&aКланы'
+  LORE:
+    - '&7Развлечение'
+    - ''
+    - ' &fХочешь иметь свой'
+    - ' &fклан? Ты сможешь'
+    - ' &fвраждовать с другими'
+    - ' &fкланами, создавать'
+    - ' &fботалии и многое другое!'
+    - ''
+    - '&fСтоимость создания клана: &e1000$'
+    - '&a> &aНажмите, чтобы создать клан'
+  ID: 307
+  KEEP-OPEN: false
+  POSITION-X: 4
+  POSITION-Y: 2
+
+pets:
+  COMMAND: 'rtp; sound: click, 3.0, 3.0'
+  NAME: '&aРандомная телепортация'
+  LORE:
+    - '&7Равлечение'
+    - ''
+    - ' &fТы ищешь место'
+    - ' &fдля постройки дома?'
+    - ' &fтогда жми сюда!'
+    - ' &f'
+    - ' &fТелепорт, тебе'
+    - ' &fпоможет в этом!'
+    - ''
+    - '&a> &aНажмите, чтобы телепортироваться'
+  ID: '383:2'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+jobs:
+  COMMAND: 'jobs; sound: click, 3.0, 3.0'
+  NAME: '&aЗаработок'
+  LORE:
+    - '&7Экономика'
+    - ''
+    - ' &fТебе нужны деньги?'
+    - ' &fБлагодаря специальному'
+    - ' &fменю ты сможешь заработать'
+    - ' &fмного игровых монет!'
+    - ''
+    - '&a> &aНажмите, чтобы заработать денег'
+  ID: '371'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 4
+shop:
+  COMMAND: 'shop; sound: click, 3.0, 3.0'
+  NAME: '&aМагазин'
+  LORE:
+    - '&7Экономика'
+    - ''
+    - ' &fВ магазине ты можешь'
+    - ' &fкупить нужные вещи за'
+    - ' &fигровую валюту.'
+    - ''
+    - '&a> &aНажмите, чтобы купить что-либо'
+  ID: '54'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 4
+crafts:
+  COMMAND: 'warp charka; sound: click, 3.0, 3.0'
+  NAME: '&aНовые крафты'
+  LORE:
+    - '&7Развлечение'
+    - ''
+    - ' &fНа сервере Вы сможете'
+    - ' &fскрафтить броню,'
+    - ' &fмеч, кирку'
+    - ' &fтопор и т.д.'
+    - ''
+    - '&a> &aНажмите, чтобы узнать крафты'
+  ID: '58'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+lucky:
+  COMMAND: 'freecase; sound: click, 3.0, 3.0'
+  NAME: '&aБесплатные Кейсы'
+  LORE:
+    - '&7Развлечение'
+    - ''
+    - ' &aВнимание! &fТолько на нашем сервере!'
+    - ' &fТы можешь получить халявные кейсы!'
+    - ' &fи испытать свою удачу!'
+    - ' &fНо для этого тебе нужно убить 2-их игроков'
+    - ' &fЧтобы получить ключ от кейса'
+    - ''
+    - '&a> &aНажмите, чтобы скрафтить Лаки-Блоки'
+  ID: '368'
+  KEEP-OPEN: false
+  POSITION-X: 2
+  POSITION-Y: 5
+mine:
+  COMMAND: 'clicker; sound: click, 3.0, 3.0'
+  NAME: '&aКликер'
+  LORE:
+    - '&7Экономика'
+    - ''
+    - ' &fТебе нужны деньги?'
+    - ' &fБлагодаря специальному'
+    - ' &fменю ты сможешь заработать'
+    - ' &fмного игровых монет!'
+    - ''
+    - '&a> &aНажмите, чтобы заработать денег'
+  ID: '175'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+Donatcase:
+  COMMAND: 'warp case; sound: click, 3.0, 3.0'
+  NAME: '&aДонат-Кейсы'
+  LORE:
+    - '&7Азарт и Развлечение'
+    - ''
+    - ' &fУ нас появились кейсы'
+    - ' &fкак в CS:GO в которых'
+    - ' &fможно выбить так и плохую,'
+    - ' &fтак и хорошую привилегию.'
+    - ''
+    - ' &6Донат-Кейсы &fплатные!'
+    - ' &fкупить их можно на нашем'
+    - ' &fсайте: &aLiteSpace.ru'
+    - ''
+    - '&a> &aНажмите, чтобы открыть кейсы'
+  ID: 'ENDER_CHEST'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+closemenu:
+  COMMAND: 'sound: click, 3.0, 3.0'
+  NAME: '&cЗакрыть меню'
+  ID: 'BARRIER'
+  KEEP-OPEN: false
+  POSITION-X: 1
+  POSITION-Y: 9
+rules:
+  COMMAND: 'open:rules.yml; sound: click, 3.0, 3.0'
+  NAME: '&aПравила'
+  LORE:
+    - '&7Важное'
+    - ''
+    - ' &fПеред началом игры,'
+    - ' &fобязательно прочитай'
+    - ' &fправила сервера, чтобы'
+    - ' &fне получить &cбан!'
+    - ''
+    - '&a> &aНажмите, чтобы прочитать правила'
+  ID: 386
+  KEEP-OPEN: false
+  POSITION-X: 2
+  POSITION-Y: 4
+guns:
+  COMMAND: 'erules; sound: click, 3.0, 3.0'
+  NAME: '&eИнформация'
+  LORE:
+    - '&7Сайт: &aLiteSpace.ru'
+    - ''
+    - ' &fАйпи: &dmc.litespace.ru'
+    - ' &fОнлайн: &a{online}'
+    - ' &fВаш Баланс: &d{balance}'
+    - ' &fВаша Донат: &a{group}'
+    - ''
+    - '&a> &aНажмите, чтобы получить информацию'
+  ID: 293
+  KEEP-OPEN: false
+  ENCHANTMENT: efficiency,5; fortune,3
+  POSITION-X: 3
+  POSITION-Y: 2
+  
+prefix:
+  COMMAND: 'open:prefix.yml; sound: click, 3.0, 3.0'
+  NAME: '&eСмена префикса &a&lNEW!'
+  LORE:
+    - '&7Развлечение'
+    - ''
+    - ' &fЕсли у тебя есть'
+    - ' &fпривилегия &6[Главарь]&f,'
+    - ' &fто ты можешь менять свой'
+    - ' &fигровой префикс!'
+    - ''
+    - '&a> &aНажмите, чтобы купить оружие'
+  ID: 395
+  KEEP-OPEN: true
+  ENCHANTMENT: efficiency,5; fortune,3
+  POSITION-X: 5
+  POSITION-Y: 3
+  
+skywars:
+  COMMAND: 'server:skywars; sound: click, 3.0, 3.0'
+  NAME: '&aSkyWars'
+  LORE:
+    - '&7Мини-Игра'
+    - ''
+    - ' &fХотите подраться в соло?'
+    - ' &fТогда тебе сюда? Кликните сюда!'
+    - ''
+    - '&a> Нажмите, чтобы зайти в игру' 
+  ID: 276
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 5
+  
+litepvp:
+  COMMAND: 'server:skypvp; sound: click, 3.0, 3.0'
+  NAME: '&aLitePVP'
+  LORE:
+    - '&7Мини-Игра'
+    - ''
+    - ' &fХотите подраться в соло?'
+    - ' &fТогда тебе сюда? Кликните сюда!'
+    - ''
+    - '&a> Нажмите, чтобы зайти в игру' 
+  ID: 267
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 5

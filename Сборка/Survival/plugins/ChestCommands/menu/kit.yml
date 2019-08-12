@@ -1,0 +1,73 @@
+﻿######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&9&lНаборы'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'kit;kits'
+  
+    # The sound played whenever the menu is opened.
+  # List of sounds:
+  # jd.bukkit.org/rb/apidocs/org/bukkit/Sound.html
+  open-action: ''
+  
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item-id/data-value to 0)
+  # In this case it will open with a book (right click)
+  open-with-item:
+    item-id: 0
+    left-click: false
+    right-click: true
+#   data-value: 0
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+
+
+IMPERATOR33:
+  COMMAND: 'kit start'
+  NAME: '&fНабор &aНовичка'
+  LORE:
+    - '&9&l◈ &fНабор новичка'
+    - '&9&l◈ &fДоступно от &aИгрока'
+  ID: '267'
+  ENCHANTMENT: efficiency,5; fortune,3
+  POSITION-X: 3
+  POSITION-Y: 2
+  
+sadmin1999:
+  COMMAND: 'kit donor'
+  NAME: '&fНабор &dДонора'
+  LORE:
+    - '&9&l◈ &fНабор випа'
+    - '&9&l◈ &fДоступно от &dДонора'
+  ID: '311'
+  ENCHANTMENT: efficiency,5; fortune,3
+  POSITION-X: 5
+  POSITION-Y: 2
+  
+sadm234:
+  COMMAND: 'kit lord'
+  NAME: '&аНабор Лорда'
+  LORE:
+    - '&9&l◈ &aНабор премиума'
+    - '&9&l◈ &fДоступно от &bЛорда'
+  ID: '276'
+  ENCHANTMENT: efficiency,5; fortune,3
+  POSITION-X: 7
+  POSITION-Y: 2
+  

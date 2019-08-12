@@ -1,0 +1,29 @@
+﻿common:
+  §aЛегенда:
+    reward: pex user !player! group set legend
+    guiId: '377'
+  §cАдмин:
+    reward: pex user !player! group set admin
+    guiId: '378'
+  §9Титан:
+    reward: pex user !player! group set titan
+    guiId: '264'
+  §aАнти-Грифер:
+    reward: pex user !player! group set anti
+    guiId: '399'
+  §6Главарь:
+    reward: pex user !player! group set glav
+    guiId: '388'
+  §cВладелец:
+    reward: pex user !player! group set lite
+    guiId: '137'
+guaranteed:
+  §aЛегенда:
+    reward: pex user !player! group set legend
+    guiId: '377'
+  §cАдмин:
+    reward: pex user !player! group set admin
+    guiId: '378'
+  §9Титан:
+    reward: pex user !player! group set titan
+    guiId: '264'

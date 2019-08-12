@@ -1,0 +1,162 @@
+# 
+# Your database information should go here.# 
+SQLite: true
+sql:
+  host: 127.0.0.1
+  port: '3306'
+  database: database
+  user: user
+  pass: password
+auction:
+  listingPrice: 2
+  listingHours: 48
+  unclaimedHours: 240
+  preventCreativeSale: true
+  maxSellPrice: 1000000000000
+  taxPercentage: 0.0
+  maxPermissionIncludeExpired: false
+  useAuctionNoAHPermission: true
+blacklist:
+- '1000'
+- '1001:12'
+- '12333:4'
+blacklistLore:
+- Blacklisted Line Of Lore
+language:
+  mainMenuName: Рынок
+  currentListingsMenuName: Ваши продаваемые вещи
+  expiredMenuName: Снятые с продажи вещи
+  purchaseItemMenuName: Вы уверены?
+  menuItemText:
+    listedItem:
+      lore:
+      - ''
+      - ''
+      - '&fЦена: &e$%price%'
+      - '&fПродавец: &d%seller%'
+      - '&fИстекает через: &e%time%'
+      - ''
+      - '&aНажми, чтобы купить.'
+    yourListedItem:
+      lore:
+      - ''
+      - '&fЦена: &e$%price%'
+      - '&fИстекает через: &e%time%'
+      - ''
+    yourExpiredItem:
+      lore:
+      - '&aНажмите, чтобы вернутся'
+    yourListedItems:
+      id: '264'
+      name: '&eПредметы, которые вы продаете'
+      lore:
+      - '&fНажми, чтобы просмотреть предметы, который вы продаете'
+      - ''
+      - '&7Продажа: &e%selling%'
+    yourExpiredItems:
+      id: '394'
+      name: '&eОтмененные и снятые с продажи вещи'
+      lore:
+      - '&fНажми, чтобы просмотреть снятые с продажи вещи и вернуть их себе'
+      - ''
+      - '&7Снятых с продажи вещей: &e%expired%'
+    returnAllItems:
+      id: '390'
+      name: '&eВернуть все'
+      lore:
+      - '&fНажми, чтобы вернуть все свои вещи.'
+    previousPage:
+      id: '339'
+      name: '&eПредыдущая страница'
+    refreshPage:
+      id: '175'
+      name: '&eОбновить страницу'
+    nextPage:
+      id: '339'
+      name: '&eСледующая страница'
+    backButton:
+      id: '339'
+      name: '&cНазад'
+    howToSell:
+      id: '388'
+      name: '&eКак продать предмет'
+      lore:
+      - '&fДля продажи вещей на рынке, возьмите её в руки'
+      - '&fи напишите команду &a/ah sell <цена>&f.'
+    mainWhatIsThisPage:
+      id: '340'
+      name: '&6Что это?'
+      lore:
+      - '&fЭто рынок, здесь вы можете'
+      - '&fприкупить себе вещичек или же сами их продать'
+      - ''
+      - '&fНе забывайте, чтобы вещь на рынке хранится 1 день,'
+      - '&fа потом попадает на склад &b/ah expired'
+    yourListedWhatIsThisPage:
+      id: '340'
+      name: '&6Что это?'
+      lore:
+      - '&fТут ваши текущие вещи на продажу'
+      - ''
+      - '&fТак же вы тут можете снять с продажи вещи.'
+      - '&fНе забывайте, чтобы вещь на рынке хранится 1 день,'
+      - '&fа потом попадает на склад &b/ah expired'
+    expiredWhatIsThisPage:
+      id: '340'
+      name: '&6Что это?'
+      lore:
+      - '&fНа этой странице показаны вещи,'
+      - '&fкоторые были сняты с продажи'
+      - ''
+      - '&aНажмите &fна предмет и если у вас есть место'
+      - '&fв инвентаре, вы получите его.'
+    purchaseConfirm:
+      name: '&aПодтвердить'
+    purchaseCancel:
+      name: '&cОтменить'
+    purchaseItem:
+      lore:
+      - ''
+      - '&fЦена: &e$%price%'
+      - '&fПродавец: &d%seller%'
+    recentSalesLog:
+      id: '266'
+      name: '&6Недавно проданные товары'
+      logLineFormat: '&fПродается &e%item% &fдля &e%buyer% &fдля &e$%price%&9.'
+      noneSoldLore: '&cВы не продали еще какие-либо предметы'
+  clickFails:
+    notEnoughInventory: Не хватает место в инвентаре
+    cannotPurchaseSelf: Вы не можете приобрести свой собственный товар
+    notExists: Этот товар уже купили
+    cannotAfford: Вы не можете себе это позволить
+    noListingsToReturn: Нет объявлений для возврата
+  chatMessages:
+    itemPurchased: '&eТовар, приобретенный'
+    buyerPurchased: '&6%buyer% &eкупил ваш товар и заработал &6$%taxedPrice%&e!'
+    listedItem: '&eВы перечислили товар на аукционе'
+    listingCancel: '&eВы отменили аукцион. Возвращение отмененных и истек предметы
+      в &6/ah expired&e.'
+    adminRemoveListing: '&eЛистинг Удален.'
+    expiredReturned: '&eПредмет возвращается в инвентарь.'
+    notEnoughInventory: '&cУ вас не хватает место в инвентаре.'
+    returnedAll: '&6Все устаревшие списки были возвращены&e.'
+    unknownCommand: '&cНеизвестная команда. Использования /ah help'
+    notHoldingItem: '&cВы не держите товар в руках.'
+    inCreative: '&cВы не можете продавать предметы, пока вы в творческом режиме'
+    noMore: '&cВы не можете перечислить больше предметов одновременно'
+    max: '&cНевозможно перечислить более 45 пунктов, в то время.'
+    invalidPrice: '&cЭто не действительная цена.'
+    maxMoney: '&cВы не можете список с ценой выше $999,999,999.'
+    maxSetMoney: '&cВы не можете список с ценой выше $1,000,000,000,000'
+    notEnoughMoney: '&cВам не хватает денег, чтобы внести в список аукциона.'
+    getHelp: '&cИспользовать /ah help'
+    isBlacklisted: '&cЭтот пункт не допускается ставить на аукционе!'
+    help:
+    - ''
+    - '&eПеревод от КЛЭЙТОНА <з'
+    - ''
+    - '&e/ah - &fНачать аукцион'
+    - '&e/ah sell <amount>- &fПродать предмет &8[Держите предмет в руке]'
+    - '&e/ah selling - &fПросмотреть элементы, которые вы продаете.'
+    - '&e/ah expired - &fВсе просроченные товары, подлежащие возврату.'
+    - ''

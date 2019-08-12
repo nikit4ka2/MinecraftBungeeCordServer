@@ -1,0 +1,32 @@
+default: 1
+donor: 2
+gamer: 3
+lord: 4
+legend: 5
+admin: 6
+titan: 7
+anti: 8
+glav: 9
+lite: 10
+helper: 225
+moder: 228
+owner: 1337
+player-list:
+- Danatelom
+- 6aToH4uK
+- 6aToH4uK
+- 6aToH4uK
+- karl2025
+- BOBKA
+- BOBKA
+- 6aToH4uK
+- 6aToH4uK
+- coolyo877
+- crytox
+players:
+  Danatelom: 1337
+  6aToH4uK: 1448
+  karl2025: 233
+  BOBKA: 7
+  coolyo877: 90000
+  crytox: 1488

@@ -1,0 +1,230 @@
+menu-settings:
+  name: 'Еда'
+  rows: 3
+  command: 'shopfood'
+1:
+  COMMAND: 'console:give {player} 260 16'
+  PRICE: 200.0
+  NAME: '&aЯблоко'
+  LORE:
+    - '&f200 монеток за 16 шт.'
+  ID: '260, 16'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+2:
+  COMMAND: 'console:give {player} 282 1'
+  PRICE: 70.0
+  NAME: '&aСуп'
+  LORE:
+    - '&f70 монеток за 1 шт.'
+  ID: '282, 1'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+3:
+  COMMAND: 'console:give {player} 297 16'
+  PRICE: 200.0
+  NAME: '&aХлеб'
+  LORE:
+    - '&f200 монеток за 16 шт.'
+  ID: '297, 16'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+4:
+  COMMAND: 'console:give {player} 320 16'
+  PRICE: 500.0
+  NAME: '&aЖареная свинина'
+  LORE:
+    - '&f500 монеток за 16 шт.'
+  ID: '320, 16'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+5:
+  COMMAND: 'console:give {player} 322 4'
+  PRICE: 500.0
+  NAME: '&aЗолотое яблоко'
+  LORE:
+    - '&f500 монеток за 4 шт.'
+  ID: '322, 4'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+6:
+  COMMAND: 'console:give {player} 349 16'
+  PRICE: 150.0
+  NAME: '&aСырая рыба'
+  LORE:
+    - '&f150 монеток за 16 шт.'
+  ID: '349, 16'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+7:
+  COMMAND: 'console:give {player} 349:1 16'
+  PRICE: 200.0
+  NAME: '&aСырой лосось'
+  LORE:
+    - '&f200 монеток за 16 шт.'
+  ID: '349:1, 16'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
+8:
+  COMMAND: 'console:give {player} 350 16'
+  PRICE: 200.0
+  NAME: '&aПриготовленная рыба'
+  LORE:
+    - '&f200 монеток за 16 шт.'
+  ID: '350, 16'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
+9:
+  COMMAND: 'console:give {player} 350:1 16'
+  PRICE: 250.0
+  NAME: '&aПриготовленный лосось'
+  LORE:
+    - '&f250 монеток за 16 шт.'
+  ID: '350:1, 16'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+10:
+  COMMAND: 'console:give {player} 354 1'
+  PRICE: 500.0
+  NAME: '&aТорт'
+  LORE:
+    - '&f500 монеток за 1 шт.'
+  ID: '354, 1'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+11:
+  COMMAND: 'console:give {player} 357 32'
+  PRICE: 100.0
+  NAME: '&aПеченье'
+  LORE:
+    - '&f100 монеток за 32 шт.'
+  ID: '357, 32'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+13:
+  COMMAND: 'console:give {player} 360 32'
+  PRICE: 150.0
+  NAME: '&aЛомтик арбуза'
+  LORE:
+    - '&f150 монеток за 32 шт.'
+  ID: '360, 32'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+14:
+  COMMAND: 'console:give {player} 364 16'
+  PRICE: 300.0
+  NAME: '&aСтейк'
+  LORE:
+    - '&f300 монеток за 16 шт.'
+  ID: '364, 16'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+15:
+  COMMAND: 'console:give {player} 366 16'
+  PRICE: 250.0
+  NAME: '&aЖареная курица'
+  LORE:
+    - '&f250 монеток за 16 шт.'
+  ID: '366, 16'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+16:
+  COMMAND: 'console:give {player} 391 32'
+  PRICE: 200.0
+  NAME: '&aМорковь'
+  LORE:
+    - '&f200 монеток за 32 шт.'
+  ID: '391, 32'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+17:
+  COMMAND: 'console:give {player} 392 32'
+  PRICE: 200.0
+  NAME: '&aКартофель'
+  LORE:
+    - '&f200 монеток за 32 шт.'
+  ID: '392, 32'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+18:
+  COMMAND: 'console:give {player} 393 32'
+  PRICE: 300.0
+  NAME: '&aПеченый картофель'
+  LORE:
+    - '&f300 монеток за 32 шт.'
+  ID: '393, 32'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+19:
+  COMMAND: 'console:give {player} 394 32'
+  PRICE: 200.0
+  NAME: '&aЯдовитый картофель'
+  LORE:
+    - '&f200 монеток за 32 шт.'
+  ID: '394, 32'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
+20:
+  COMMAND: 'console:give {player} 400 4'
+  PRICE: 500.0
+  NAME: '&aТыквенный пирог'
+  LORE:
+    - '&f500 монеток за 4 шт.'
+  ID: '400, 4'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 3
+21:
+  COMMAND: 'console:give {player} 412 16'
+  PRICE: 350.0
+  NAME: '&aЖаренная крольчатина'
+  LORE:
+    - '&f350 монеток за 16 шт.'
+  ID: '412, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+22:
+  COMMAND: 'console:give {player} 413 1'
+  PRICE: 200.0
+  NAME: '&aРагу из кролика'
+  LORE:
+    - '&f200 монеток за 1 шт.'
+  ID: '413, 1'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3
+23:
+  COMMAND: 'console:give {player} 424 16'
+  PRICE: 350.0
+  NAME: '&aЖареная баранина'
+  LORE:
+    - '&f350 монеток за 16 шт.'
+  ID: '424, 16'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+24:
+  COMMAND: 'open:shop.yml'
+  NAME: '&cНазад'
+  ID: '76'
+  POSITION-X: 9
+  POSITION-Y: 3

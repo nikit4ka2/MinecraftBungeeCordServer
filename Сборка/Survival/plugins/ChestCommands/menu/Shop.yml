@@ -1,0 +1,76 @@
+menu-settings:
+  name: '       Магазин'
+  rows: 4
+  command: 'shop'
+block:
+  COMMAND: 'open:shopblock.yml'
+  NAME: '&aСтроительные блоки'
+  LORE:
+    - '&fВсе основные блоки необходимые для строительства,'
+    - '&fза исключением тех, ктороые можно легко скрафтить,'
+    - '&fнапример доски.'
+    - ''
+    - '&a&l• &fНажмите чтобы посмотреть'
+  ID: 17
+  POSITION-X: 2
+  POSITION-Y: 2
+decorative:
+  COMMAND: 'open:shopdecor.yml'
+  NAME: '&aДекоративные блоки'
+  LORE:
+    - '&fВсе декоративные блоки'
+    - ''
+    - '&a&l• &fНажмите чтобы посмотреть'
+  ID: 38
+  POSITION-X: 4
+  POSITION-Y: 2
+teleport:
+  COMMAND: 'open:shopteleport.yml'
+  NAME: '&aТранспорт &7(вагонетки, лодки...)'
+  LORE:
+    - '&fРазличные виды транспорта и рельсы'
+    - ''
+    - '&a&l• &fНажмите чтобы посмотреть'
+  ID: 66
+  POSITION-X: 6
+  POSITION-Y: 2
+resources:
+  COMMAND: 'open:shopresours.yml'
+  NAME: '&aРесурсы'
+  LORE:
+    - '&fМатериалы, семена и полезные ископаемые'
+    - ''
+    - '&a&l• &fНажмите чтобы посмотреть'
+  ID: 264
+  POSITION-X: 8
+  POSITION-Y: 2
+food:
+  COMMAND: 'open:shopfood.yml'
+  NAME: '&aЕда'
+  LORE:
+    - '&fВся еда'
+    - ''
+    - '&a&l• &fНажмите чтобы посмотреть'
+  ID: 260
+  POSITION-X: 3
+  POSITION-Y: 3
+machinery:
+  COMMAND: 'open:shopmach.yml'
+  NAME: '&aРедстоун'
+  LORE:
+    - '&fРедстоун, и все что с ним связано'
+    - ''
+    - '&a&l• &fНажмите чтобы посмотреть'
+  ID: 331
+  POSITION-X: 5
+  POSITION-Y: 3
+coloredblock:
+  COMMAND: 'open:shopcolor.yml'
+  NAME: '&aЦветные блоки'
+  LORE:
+    - '&fВся цветная глина, шерсть и стекло'
+    - ''
+    - '&a&l• &fНажмите чтобы посмотреть'
+  ID: '159:14'
+  POSITION-X: 7
+  POSITION-Y: 3

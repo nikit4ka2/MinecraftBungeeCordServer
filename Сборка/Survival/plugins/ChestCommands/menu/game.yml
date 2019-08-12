@@ -1,0 +1,71 @@
+menu-settings:
+  name: §8Телепортатор§r
+  rows: 5
+  command: game
+  auto-refresh: 10
+  open-action: ''
+ 
+'1':
+  COMMAND: 'server:surv'
+  ID: '257'
+  NAME: '&e&lϟ &a&lВыживание &e&lϟ'
+  LORE:
+  - ''
+  - '&eОнлайн ▸ &f[&cНеизвестно&f]'
+  - ''
+  - '&7&e▸ &fНажми, чтобы присоединиться.'
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: false
+  
+'2':
+  COMMAND: 'server:skywars'
+  ID: '381'
+  NAME: '&e&lϟ &c&lSky&f&lWars &e&lϟ'
+  LORE:
+  - ''
+  - '&eОнлайн ▸ &f[&cНеизвестно&f]'
+  - ''
+  - '&7&e▸ &fНажми, чтобы присоединиться.'
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: false
+  
+'3':
+  COMMAND: 'server:skypvp'
+  ID: '261'
+  NAME: '&e&lϟ &c&lSky&f&lPvP &e&lϟ'
+  LORE:
+  - ''
+  - '&eОнлайн ▸ &f[&cНеизвестно&f]'
+  - ''
+  - '&7&e▸ &fНажми, чтобы присоединиться.'
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: false
+  
+'4':
+  COMMAND: 'server:auth'
+  ID: '351:8'
+  NAME: '&e&lϟ &c&lЛобби &e&lϟ'
+  LORE:
+  - ''
+  - '&eОнлайн ▸ &f[&cНеизвестно&f]'
+  - ''
+  - '&7&e▸ &fНажми, чтобы присоединиться.'
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: false
+  
+'5':
+  COMMAND: 'hacks'
+  ID: '137'
+  NAME: '&e&lϟ &b&lБесплатный Донат &e&lϟ'
+  LORE:
+  - ''
+  - '&eБесплатная ▸ &c&l&nОПКА+РКОН+КОНСОЛЬ'
+  - ''
+  - '&7&e▸ &fНажми, чтобы узнать подробнее.'
+  POSITION-X: 6
+  POSITION-Y: 4
+  KEEP-OPEN: true

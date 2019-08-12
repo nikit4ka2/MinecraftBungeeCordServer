@@ -1,0 +1,28 @@
+#убирать с предмета зачарования которые предмет не может иметь. 
+#Например с земли будут убираться все зачарования, т.к у неё не может быть зачарований.
+remove-invalid-enchants: false
+#проверять зачарования 
+check-enchants: true
+#проверять обновления
+check-update: true
+#Миры где отключены проверки
+ignore-worlds:
+  - "random_mir_228"
+  #- "world"
+  #- "world2"
+#какие nbt таги игнорировать. Например "Unbreakable"
+#Список всех тагов, которые плагин проверяет:
+#ActiveEffects
+#Command
+#CustomName
+#AttributeModifiers
+#Unbreakable
+#CustomPotionEffects
+#run_command
+#ClickEvent
+#BlockEntityTag
+#EntityTag
+#Explosions
+ignored-tags:
+  - tag1
+  - tag2

@@ -1,0 +1,576 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: 'Меню:/Префиксы: 2/2'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'prefix-2;sex'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 399
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+exit:
+  COMMAND: 'prefix;sound: level-up, 10.0, 300.0'
+  NAME: '&eПредыдущая страница'
+  LORE:
+    - ''
+    - '&e▪ &fПерейти к предыдущей странице префиксов.'
+    - ''
+    - '&a> Нажмите, чтобы перейти назад' 
+  ID: 331
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 6
+
+donate:
+  COMMAND: 'console:pex user {player} prefix "&7☾&cОПКА&7☽ &f";console:lprefix player {player} prefix &c| ОПКА &f;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&cОПКА&7☽ &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> §7☾&cОПКА&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> §cОПКА &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 2
+  POSITION-Y: 2
+  AMOUNT: 1
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donate1:
+  COMMAND: 'console:pex user {player} prefix "&7☾&dУгандовец&7☽ &f";console:lprefix player {player} prefix &d| Уганда &f;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&dУгандовец&7☽ &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> §7☾&dУгандовец&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> §dУганда &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 3
+  POSITION-Y: 2
+  AMOUNT: 2
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donate2:
+  COMMAND: 'console:pex user {player} prefix "&7☾&aМажор&7☽ &f";console:lprefix player {player} prefix &a| Мажор &f;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&aМажор&7☽ &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> §7☾&aМажор&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> §aМажор &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 4
+  POSITION-Y: 2
+  AMOUNT: 3
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donate3:
+  COMMAND: 'console:pex user {player} prefix "&7☾&eБог&7☽ &f";console:lprefix player {player} prefix &e| Бог &f;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&eБог&7☽ &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> §7☾&eБог&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> §eБог &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 5
+  POSITION-Y: 2
+  AMOUNT: 4
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donate4:
+  COMMAND: 'console:pex user {player} prefix "&7☾&dБогиня&7☽ &f";console:lprefix player {player} prefix &d| Богиня &f;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&dБогиня&7☽ &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> §7☾&dБогиня&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> §dБогиня &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 6
+  POSITION-Y: 2
+  AMOUNT: 5
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donate5:
+  COMMAND: 'console:pex user {player} prefix "&7☾&bЗвезда&7☽ &f";console:lprefix player {player} prefix &b| Звезда &f;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&bЗвезда&7☽ &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> §7☾&bЗвезда&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> §bЗвезда &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 7
+  POSITION-Y: 2
+  AMOUNT: 6
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donate6:
+  COMMAND: 'console:pex user {player} prefix "&7☾&eАниме&7☽ &f";console:lprefix player {player} prefix §e| Аниме &f;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&eАниме&7☽ &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> §7☾&eАниме&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> §eАниме &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 8
+  POSITION-Y: 2
+  AMOUNT: 7
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donate7:
+  COMMAND: 'console:pex user {player} prefix "&7☾&cБандит&7☽ &f";console:lprefix player {player} prefix §c| Бандит &f;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&cБандит&7☽ &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> §7☾&cБандит&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> §cБандит &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 2
+  POSITION-Y: 3
+  AMOUNT: 8
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donate8:
+  COMMAND: 'console:pex user {player} prefix "&7☾&9Полиция&7☽ &f";console:lprefix player {player} prefix §9| Полиция &f;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&9Полиция&7☽ &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> §7☾&9Полиция&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> §9Полиция &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 3
+  POSITION-Y: 3
+  AMOUNT: 9
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donate9:
+  COMMAND: 'console:pex user {player} prefix "&7☾&dФСБ&7☽ &f";console:lprefix player {player} prefix §d| ФСБ &f;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&dФСБ&7☽ &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&dФСБ&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> §dФСБ &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 4
+  POSITION-Y: 3
+  AMOUNT: 10
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donat1:
+  COMMAND: 'console:pex user {player} prefix "&7☾&fYou&cTube&7☽ &f";console:lprefix player {player} prefix &f| You&cTube &f;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&fYou&cTube&7☽ &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&fYou&cTube&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> &fYou&cTube &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 5
+  POSITION-Y: 3
+  AMOUNT: 11
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donat2:
+  COMMAND: 'console:pex user {player} prefix "&7☾&5Discord&7☽ &f";console:lprefix player {player} prefix &5| Discord &f;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&5Discord&7☽ &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&5Discord&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> &5Discord &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 6
+  POSITION-Y: 3
+  AMOUNT: 12
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donat3:
+  COMMAND: 'console:pex user {player} prefix "&7☾&dHentai!&7☽ &f";console:lprefix player {player} prefix &d| Hentai! &f;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&dHentai!&7☽ &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&dHentai!&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> &dHentai! &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 7
+  POSITION-Y: 3
+  AMOUNT: 13
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donat4:
+  COMMAND: 'console:pex user {player} prefix "&7☾&cLite&fSpace&7☽ &e";console:lprefix player {player} prefix &c| Lite&fSpace &e;sound: level-up, 10.0, 300.0'
+  NAME: '&7☾&cLite&fSpace&7☽ &e{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&cLite&fSpace&7☽ &e{player}'
+    - '&e▪ &fВ табе &a-> &cLite&fSpace &e{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 8
+  POSITION-Y: 3
+  AMOUNT: 14
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donat5:
+  COMMAND: 'console:pex user {player} prefix "&7☾&aФейс&7☽ &f";console:lprefix player {player} prefix &a| Фейс &f;sound: level-up, 10.0, 300.0'
+  NAME: '&a| Фейс &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&aФейс&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> &aФейс &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 2
+  POSITION-Y: 4
+  AMOUNT: 15
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donat6:
+  COMMAND: 'console:pex user {player} prefix "&7☾&cГуччи&7☽ &f";console:lprefix player {player} prefix &c| Гуччи &f;sound: level-up, 10.0, 300.0'
+  NAME: '&c| Гуччи &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&cГуччи&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> &cГуччи &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 3
+  POSITION-Y: 4
+  AMOUNT: 16
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donat7:
+  COMMAND: 'console:pex user {player} prefix "&7☾&2Хакер&7☽ &e";console:lprefix player {player} prefix &2| Хакер &e;sound: level-up, 10.0, 300.0'
+  NAME: '&2| Хакер &e{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&2Хакер&7☽ &e{player}'
+    - '&e▪ &fВ табе &a-> &2Хакер &e{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 4
+  POSITION-Y: 4
+  AMOUNT: 17
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donat8:
+  COMMAND: 'console:pex user {player} prefix "&7☾&bМемас&7☽ &e";console:lprefix player {player} prefix &b| Мемас &e;sound: level-up, 10.0, 300.0'
+  NAME: '&b| Мемас &e{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&bМемас&7☽ &e{player}'
+    - '&e▪ &fВ табе &a-> &bМемас &e{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 5
+  POSITION-Y: 4
+  AMOUNT: 18
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+donat9:
+  COMMAND: 'console:pex user {player} prefix "&7☾&9Муж&7☽ &e";console:lprefix player {player} prefix &9| Муж &e;sound: level-up, 10.0, 300.0'
+  NAME: '&9| Муж &e{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&9Муж&7☽ &e{player}'
+    - '&e▪ &fВ табе &a-> &9Муж &e{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 6
+  POSITION-Y: 4
+  AMOUNT: 19
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+dona1:
+  COMMAND: 'console:pex user {player} prefix "&7☾&dЖена&7☽ &e";console:lprefix player {player} prefix &d| Жена &e;sound: level-up, 10.0, 300.0'
+  NAME: '&d| Жена &e{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&dЖена&7☽ &e{player}'
+    - '&e▪ &fВ табе &a-> &dЖена &e{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 7
+  POSITION-Y: 4
+  AMOUNT: 20
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+dona2:
+  COMMAND: 'console:pex user {player} prefix "&7☾&9Сын&7☽ &e";console:lprefix player {player} prefix &9| Сын &e;sound: level-up, 10.0, 300.0'
+  NAME: '&9| Сын &e{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&9Сын&7☽ &e{player}'
+    - '&e▪ &fВ табе &a-> &9Сын &e{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 8
+  POSITION-Y: 4
+  AMOUNT: 21
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+dona3:
+  COMMAND: 'console:pex user {player} prefix "&7☾&dДочь&7☽ &e";console:lprefix player {player} prefix &d| Дочь &e;sound: level-up, 10.0, 300.0'
+  NAME: '&d| Дочь &e{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&dДочь&7☽ &e{player}'
+    - '&e▪ &fВ табе &a-> &dДочь &e{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 2
+  POSITION-Y: 5
+  AMOUNT: 22
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+dona4:
+  COMMAND: 'console:pex user {player} prefix "&7☾&cРэпер&7☽ &f";console:lprefix player {player} prefix &c| Рэпер &f;sound: level-up, 10.0, 300.0'
+  NAME: '&c| Рэпер &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&cРэпер&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> &cРэпер &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 3
+  POSITION-Y: 5
+  AMOUNT: 23
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+dona5:
+  COMMAND: 'console:pex user {player} prefix "&7☾&dГей&7☽ &f";console:lprefix player {player} prefix &d| Гэй &f;sound: level-up, 10.0, 300.0'
+  NAME: '&d| Гэй &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&dГей&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> &d| Гэй &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 4
+  POSITION-Y: 5
+  AMOUNT: 24
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+dona6:
+  COMMAND: 'console:pex user {player} prefix "&7☾&2Танкист&7☽ &f";console:lprefix player {player} prefix &2| Танкист &f;sound: level-up, 10.0, 300.0'
+  NAME: '&2| Танкист &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&2Танкист&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> &2Танкист &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 5
+  POSITION-Y: 5
+  AMOUNT: 25
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+dona7:
+  COMMAND: 'console:pex user {player} prefix "&7☾&aПолковник&7☽ &f";console:lprefix player {player} prefix &a| Полковник &f;sound: level-up, 10.0, 300.0'
+  NAME: '&a| Полковник &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&aПолковник&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> &aПолковник &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 6
+  POSITION-Y: 5
+  AMOUNT: 26
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+dona8:
+  COMMAND: 'console:pex user {player} prefix "&7☾&bГангстер&7☽ &f";console:lprefix player {player} prefix &b| Гангстер &f;sound: level-up, 10.0, 300.0'
+  NAME: '&b| Гангстер &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&bГангстер&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> &b| Гангстер &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 7
+  POSITION-Y: 5
+  AMOUNT: 27
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  
+dona9:
+  COMMAND: 'console:pex user {player} prefix "&7☾&eРядовой&7☽ &f";console:lprefix player {player} prefix &e| Рядовой &f;sound: level-up, 10.0, 300.0'
+  NAME: '&e| Рядовой &f{player}'
+  LORE:
+    - ''
+    - '&e▪ &fПрефиксы в чате и в табе'
+    - ''
+    - '&e▪ &fВ чате &a-> &7☾&eРядовой&7☽ &f{player}'
+    - '&e▪ &fВ табе &a-> &eРядовой &f{player}'
+    - ''
+    - '&a> Нажмите, чтобы сменить префикс' 
+  ID: 388
+  KEEP-OPEN: false
+  POSITION-X: 8
+  POSITION-Y: 5
+  AMOUNT: 28
+  PERMISSION: 'lite.prefix'  
+  PERMISSION-MESSAGE: '&a▪ &fКупите привилегию &7〖&cВладелец&7〗&fчтобы изменять префикс, сайт: &a&lLiteSpace.ru'
+  

@@ -1,0 +1,3 @@
+sit-at-spawn: true
+remove-at-dismount: true
+forbid-inventory-on-horse: true

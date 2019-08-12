@@ -1,0 +1,78 @@
+DonatCase:
+  TypeSave: config
+  MySql:
+    Host: 'jdbc:mysql://localhost:3306/Server'
+    User: root
+    Password:
+  lang: ru
+  LevelsGroup:
+    owner: 13
+    moder: 12
+    helper: 11
+    lite: 10
+    glav: 9
+    anti: 8
+    titan: 7
+    admin: 6
+    legend: 5
+    lord: 4
+    gamer: 3
+    donor: 2
+    default: 1
+  Title:
+    Title: '&6&lLiteSpace'
+    SubTitle: '&eПоздравляем! Вы выбили привилегию - %group'
+  Cases:
+    Cases:
+      Title: '&c&lДонат-Кейс'
+      Commands:
+       - pex user %player group set %group
+      Items:
+        Donor:
+          Group: donor
+          Chance: 50
+          Item:
+            ID: 95;10
+            DisplayName: '&d☾Донор☽'
+        Lord:
+          Group: lord
+          Chance: 40
+          Item:
+            ID: 95;3
+            DisplayName: '&b☾Лорд☽'
+        Legend:
+          Group: legend
+          Chance: 30
+          Item:
+            ID: 95;4
+            DisplayName: '&e☾Легенда☽'
+        Admin:
+          Group: admin
+          Chance: 20
+          Item:
+            ID: 95;14
+            DisplayName: '&c☾Админ☽'
+        Titan:
+          Group: titan
+          Chance: 26
+          Item:
+            ID: 95;11
+            DisplayName: '&9☾Титан☽'
+        Anti:
+          Group: anti
+          Chance: 23
+          Item:
+            ID: 95;5
+            DisplayName: '&a☾Анти-Грифер☽'
+        Glav:
+          Group: glav
+          Chance: 20
+          Item:
+            ID: 133;0
+            DisplayName: '&6☾Главарь☽'
+        Lite:
+          Group: lite
+          Chance: 16
+          Item:
+            ID: 137;0
+            DisplayName: '&c☾Владелец☽'

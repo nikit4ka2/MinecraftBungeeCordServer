@@ -1,0 +1,23 @@
+lastAccountName: Dyooxa
+timestamps:
+  login: 1532448564957
+  logout: 1532448542745
+  kits:
+    start: 1532447934850
+  lastteleport: 1532448585584
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 576.5015408151085
+  y: 68.0
+  z: 379.4154818767021
+  yaw: -0.7526852
+  pitch: 5.099562
+logoutlocation:
+  world: world
+  x: 594.9907871758011
+  y: 69.97029718977033
+  z: 370.0303777957636
+  yaw: -248.55095
+  pitch: 4.649629
+money: '1710.0'

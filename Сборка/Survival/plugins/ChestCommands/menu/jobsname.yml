@@ -1,0 +1,275 @@
+﻿######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: 'Работы:'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'jobs;job'
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 296
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+  
+1s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+  
+2s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 2
+  POSITION-Y: 1
+  
+  
+3s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 3
+  POSITION-Y: 1
+  
+  
+4s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 4
+  POSITION-Y: 1
+  
+  
+5s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 5
+  POSITION-Y: 1
+  
+  
+6s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 6
+  POSITION-Y: 1
+  
+  
+7s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 7
+  POSITION-Y: 1
+  
+  
+8s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 8
+  POSITION-Y: 1
+  
+9s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 9
+  POSITION-Y: 1
+woodcutter:
+  COMMAND: 'jobs join woodcutter'
+  NAME: '&aЛесоруб'
+  LORE:
+  - '&7Устроить на работу лесоруба'
+  ENCHANTMENT: 'Efficiency, 1'
+  ID: 258
+  POSITION-X: 1
+  POSITION-Y: 2
+miner:
+  COMMAND: 'jobs join miner'
+  NAME: '&9Шахтёр'
+
+  LORE:
+  - '&7Устроить на работу шахтера'
+  ENCHANTMENT: 'Efficiency, 1'
+  ID: 278
+  POSITION-X: 2
+  POSITION-Y: 2
+gigger:
+  COMMAND: 'jobs join digger'
+  NAME: '&cКопатель'
+  LORE:
+  - '&7Устроить на работу копателя:)'
+  ENCHANTMENT: 'Efficiency, 1'
+  ID: 284
+  POSITION-X: 3
+  POSITION-Y: 2
+Builder:
+  COMMAND: 'jobs join builder'
+  NAME: '&e&oСтроитель'
+  LORE:
+  - '&7Устроить на работу строителя'
+  ID: 5
+  POSITION-X: 4
+  POSITION-Y: 2
+Farmer:
+  COMMAND: 'jobs join Farmer'
+  NAME: '&a&oФермер'
+
+  LORE:
+  - '&7Устроить на работу фермера'
+  ENCHANTMENT: 'Fortune, 1'
+  ID: 293
+  POSITION-X: 5
+  POSITION-Y: 2
+Hunter:
+  COMMAND: 'jobs join Hunter'
+  NAME: '&c&oОхотник'
+  LORE:
+  - '&7Устроить на работу охотника'
+  ENCHANTMENT: 'Power, 1'
+  ID: 261
+  POSITION-X: 6
+  POSITION-Y: 2
+Fisherman:
+  COMMAND: 'jobs join fisherman'
+  NAME: '&9&oРыболов'
+  LORE:
+  - '&7Устроить на работу раболова'
+  ENCHANTMENT: 'LuckoftheSea, 1'
+  ID: 346
+  POSITION-X: 7
+  POSITION-Y: 2
+enchantner:
+  COMMAND: 'jobs join Enchanter'
+  NAME: '&9&oЧарователь'
+  LORE:
+  - '&7Устроить на работу чарователя'
+  ID: 116
+  POSITION-X: 8
+  POSITION-Y: 2
+backtomenu:
+  COMMAND: 'open:menu.yml'
+  NAME: '&9Выйти в меню'
+  LORE:
+  - '&7Нажми на меня'
+  ID: redstone lamp
+  POSITION-X: 9
+  POSITION-Y: 2
+  
+  
+10s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 1
+  POSITION-Y: 3
+  
+  
+11s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 2
+  POSITION-Y: 3
+  
+  
+12s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 3
+  POSITION-Y: 3
+  
+  
+13s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 4
+  POSITION-Y: 3
+  
+  
+14s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 5
+  POSITION-Y: 3
+  
+  
+15s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 6
+  POSITION-Y: 3
+  
+  
+16s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 7
+  POSITION-Y: 3
+  
+  
+17s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 8
+  POSITION-Y: 3
+  
+18s:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+  ID: 160
+  POSITION-X: 9
+  POSITION-Y: 3

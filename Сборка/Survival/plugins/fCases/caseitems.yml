@@ -1,0 +1,10 @@
+'&eГеймер':
+  chance: 5000
+  level: 1
+  reward: pex user !player! group set gamer
+  guiItemId: '351:5'
+'&bЛорд':
+  chance: 8500
+  level: 2
+  reward: pex user !player! group set lord
+  guiItemId: '351:9'
