@@ -1,0 +1,20 @@
+language: ru
+database: sqlite # mysql or sqlite
+mysql:
+    host: localhost
+    port: 3306
+    database: minecraft
+    username: root
+    password: admin
+settings:
+    warm: 10
+    max_symbols: 22
+    min_symbols: 5
+    default_max: 15
+    max_upgrade: 35
+    create_cost: 500 # стоимость создани¤ клана
+    change_cost: 125 # стоимость смены названия
+    upgrade_cost: 100 # стоимость улучшения клана
+    clan_regex: '[a-zA-Z0-9]*'
+    kill_reward: 100 # награда за убийство игрока из клана врага
+    kill_cooldown: 30 # время ожидания между получением наград за убийство

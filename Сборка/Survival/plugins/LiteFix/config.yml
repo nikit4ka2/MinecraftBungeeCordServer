@@ -1,0 +1,34 @@
+names:
+  with-dot: true
+  enlish-names: true
+  forb-list:
+  - sk89q
+  - md_5
+  - Neron
+forbidden-words:
+- gune.ga
+- hackop.ga
+- .ga
+words-white-players:
+- Reboot
+settings:
+  delete-items: true
+  enable-weapon-fix: true
+  enable-gm-fix: true
+  gm-check-interval: 2
+  enable-gm-pvp-check: true
+  enable-inv-check: true
+hand-damage: 6.0
+inv-check-items:
+- ARMOR_STAND
+- POTION
+- HOPPER
+- BEDROCK
+- BOOK_AND_QUILL
+- WRITTEN_BOOK
+- BARRIER
+- LAVA_BUCKET
+- FIREWORK
+limits:
+  general-limit: 50.0
+  AIR: 500000.0

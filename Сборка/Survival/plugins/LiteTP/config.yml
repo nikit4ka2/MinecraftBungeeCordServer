@@ -1,0 +1,47 @@
+# -
+# - - - - - - - - -
+# For documentation and examples for config setup
+# go to: http://dev.bukkit.org/bukkit-plugins/randomlocation/pages/config-setup/
+# - - - - - - - - -
+# -
+Permissions:
+  UsePermissions: true
+  OpenSigns: false
+  OpenPortals: false
+MessageOnTeleport: true
+Performance:
+  ZoneCheckDelay: 0
+  BackgroundChecks: 0
+  ChunksToCheck: 0
+Backup:
+  Enable: false
+  BackupInterval: 0 
+  MaxBackups: 0
+Cooldowns:
+  Commands: 120
+  Portals: 0
+  Signs: 0
+TeleportOnFirstJoin:
+  Enable: false
+  Zone: Default
+AutoUpdater:
+  Enable: true
+  CheckForBetas: false
+  PromptAdminForUpdate: true
+  CheckForUpdateInterval: 6h
+Hooks:
+  UseFactionSupport: true
+  UseTownySupport: true
+  UseWorldBorderSupport: true
+  UseGriefPreventionSupport: true
+  UseVaultSupport: true
+  UseWorldGuardSupport: true
+Economy:
+  Price: 10.0
+MoveRestriction:
+  Enable: false
+  Time: 5
+IgnoreBed: false
+IgnoreOtherPlugins: false
+Respawn: ''
+Aliases: ''

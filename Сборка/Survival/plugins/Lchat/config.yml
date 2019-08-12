@@ -1,0 +1,14 @@
+usage:
+- '§e§l<§a§l◈§e§l> &fПомощь по чату'
+- '§e§l<§a§l◈§e§l> &fУпомянуть игрока - &c@ник'
+- '§e§l<§a§l◈§e§l> &fОтключить/Включить чат - &c/chat msg'
+on_chat: "§e§l<§a§l◈§e§l> &fВы обратно включили чат!"
+off_chat: "§e§l<§a§l◈§e§l> &fВы успешно отключили чат!"
+main_color: "&f"
+notify: "&fВы упомянули игрока &c%player%"
+you_notify: "&fВас упомянул игрок &c%player%"
+start_message: "§e§l<§a§l◈§e§l> &fВводи - &c! &f(&cсообщение&f)"
+dispatcher:
+  permission: "§e§l<§a§l◈§e§l> &fУ тебя нет прав!"
+  dispatched: "§e§l<§a§l◈§e§l> &fТы отправил команду за всех!"
+  chatted: "§e§l<§a§l◈§e§l> &fТы написал в чат за всех!"

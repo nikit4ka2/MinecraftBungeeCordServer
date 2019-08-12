@@ -1,0 +1,40 @@
+PREFIX: "&f[&cLite&fSpace&f]"
+EMPTY_DONATE: "%prefix% &eТакой группы нет, мда"
+EXCELLENT_GIVE: "%prefix% &eТы успешно выдал &a%group%&e игроку &a%player%"
+PERMISSION_MESSAGE: "%prefix% &fНедостаточно прав"
+USAGE: "%prefix% &eВводи: &a/givedonate &f[&aник&f] [&aгруппа&f]"
+chat_msg: false
+title_msg: true
+groups:
+  donor:
+    title: "&6&l⚡ ⚡ ⚡"
+    subtitle: "&a%player% &eспасибо за покупку доната &d☾Донор☽"
+    message: "%prefix% &a%player% &eспасибо за покупку доната &d☾Донор☽"
+  lord:
+    title: "&6&l⚡ ⚡ ⚡"
+    subtitle: "&a%player% &eспасибо за покупку доната &b☾Лорд☽"
+    message: "%prefix%&f &a%player% &eспасибо за покупку доната &b☾Лорд☽"
+  legend:
+    title: "&6&l⚡ ⚡ ⚡"
+    subtitle: "&a%player% &eспасибо за покупку доната &e☾Легенда☽"
+    message: "%prefix% &fИгрок &c%player% &fкупил(а) &e☾Легенда☽"
+  admin:
+    title: "&6&l⚡ ⚡ ⚡"
+    subtitle: "&a%player% &eспасибо за покупку доната &c☾Админ☽"
+    message: "%prefix% &a%player% &eспасибо за покупку доната &c☾Админ☽"
+  titan:
+    title: "&6&l⚡ ⚡ ⚡"
+    subtitle: "&a%player% &eспасибо за покупку доната &9☾Титан☽"
+    message: "%prefix% &a%player% &eспасибо за покупку доната &9☾Титан☽"
+  anti:
+    title: "&6&l⚡ ⚡ ⚡"
+    subtitle: "&fИгрок &c%player%&f &fтеперь &e☾Анти-Грифер☽"
+    message: "%prefix% &a%player% &eспасибо за покупку доната &e☾Анти-Грифер☽"
+  glav:
+    title: "&6&l⚡ ⚡ ⚡"
+    subtitle: "&a%player% &eспасибо за покупку доната &e☾Главарь☽"
+    message: "%prefix% &a%player% &eспасибо за покупку доната &e☾Главарь☽"
+  lite:
+    title: "&6&l⚡ ⚡ ⚡"
+    subtitle: "&a%player% &eспасибо за покупку доната &c☾Владелец☽"
+    message: "%prefix% &a%player% &eспасибо за покупку доната &c☾Владелец☽"

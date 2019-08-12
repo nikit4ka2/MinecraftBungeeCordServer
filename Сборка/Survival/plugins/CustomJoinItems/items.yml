@@ -1,0 +1,20 @@
+﻿menu:
+  name: '&fМеню сервера &7[&aПКМ&7]'
+  id: 403
+  slot: 1
+  lore:
+    - '&fИгровое меню'
+  command: 'menu'
+  cooldown-seconds: 1
+  give-on-world-change: true
+  give-at-respawn: true
+donate:
+  name: '&fДонат &7[&aПКМ&7]'
+  id: 388
+  slot: 2
+  lore:
+    - '&fИнформация о &dдонате'
+  command: 'donate;tell:&fКупи донат на сайте: &a&lLiteSpace.ru'
+  cooldown-seconds: 1
+  give-at-respawn: true
+  give-on-world-change: true
